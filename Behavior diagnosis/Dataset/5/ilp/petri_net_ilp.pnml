@@ -1,0 +1,340 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="ilp" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>ilp</text>
+    </name>
+    <page id="n0">
+      <place id="25">
+        <name>
+          <text>25</text>
+        </name>
+      </place>
+      <place id="24">
+        <name>
+          <text>24</text>
+        </name>
+      </place>
+      <place id="12">
+        <name>
+          <text>12</text>
+        </name>
+      </place>
+      <place id="14">
+        <name>
+          <text>14</text>
+        </name>
+      </place>
+      <place id="18">
+        <name>
+          <text>18</text>
+        </name>
+      </place>
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="4">
+        <name>
+          <text>4</text>
+        </name>
+      </place>
+      <place id="3">
+        <name>
+          <text>3</text>
+        </name>
+      </place>
+      <place id="5">
+        <name>
+          <text>5</text>
+        </name>
+      </place>
+      <place id="6">
+        <name>
+          <text>6</text>
+        </name>
+      </place>
+      <place id="8">
+        <name>
+          <text>8</text>
+        </name>
+      </place>
+      <place id="10">
+        <name>
+          <text>10</text>
+        </name>
+      </place>
+      <place id="23">
+        <name>
+          <text>23</text>
+        </name>
+      </place>
+      <place id="17">
+        <name>
+          <text>17</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="7">
+        <name>
+          <text>7</text>
+        </name>
+      </place>
+      <place id="9">
+        <name>
+          <text>9</text>
+        </name>
+      </place>
+      <place id="15">
+        <name>
+          <text>15</text>
+        </name>
+      </place>
+      <place id="16">
+        <name>
+          <text>16</text>
+        </name>
+      </place>
+      <place id="21">
+        <name>
+          <text>21</text>
+        </name>
+      </place>
+      <place id="22">
+        <name>
+          <text>22</text>
+        </name>
+      </place>
+      <place id="19">
+        <name>
+          <text>19</text>
+        </name>
+      </place>
+      <place id="11">
+        <name>
+          <text>11</text>
+        </name>
+      </place>
+      <place id="26">
+        <name>
+          <text>26</text>
+        </name>
+      </place>
+      <transition id="TERMINATE_SESSION_HRBC_RTM">
+        <name>
+          <text>TERMINATE_SESSION_HRBC_RTM</text>
+        </name>
+      </transition>
+      <transition id="RX_POS_REPORT_ARBC">
+        <name>
+          <text>RX_POS_REPORT_ARBC</text>
+        </name>
+      </transition>
+      <transition id="PROCESS_MA_EVC">
+        <name>
+          <text>PROCESS_MA_EVC</text>
+        </name>
+      </transition>
+      <transition id="REQ_SESSION_ARBC_RTM">
+        <name>
+          <text>REQ_SESSION_ARBC_RTM</text>
+        </name>
+      </transition>
+      <transition id="RX_ARBC_GRANT_SUPERVISION_RTM">
+        <name>
+          <text>RX_ARBC_GRANT_SUPERVISION_RTM</text>
+        </name>
+      </transition>
+      <transition id="ACCEPT_SESSION_ARBC">
+        <name>
+          <text>ACCEPT_SESSION_ARBC</text>
+        </name>
+      </transition>
+      <transition id="APPLY_SUPERVISION_EVC">
+        <name>
+          <text>APPLY_SUPERVISION_EVC</text>
+        </name>
+      </transition>
+      <transition id="DISPLAY_UPDATE_DMI">
+        <name>
+          <text>DISPLAY_UPDATE_DMI</text>
+        </name>
+      </transition>
+      <transition id="EVALUATE_FRONT_EVC">
+        <name>
+          <text>EVALUATE_FRONT_EVC</text>
+        </name>
+      </transition>
+      <transition id="FORWARD_ANNOUNCEMENT_TO_ARBC_HRBC">
+        <name>
+          <text>FORWARD_ANNOUNCEMENT_TO_ARBC_HRBC</text>
+        </name>
+      </transition>
+      <transition id="PROCESS_COORDINATION_ARBC">
+        <name>
+          <text>PROCESS_COORDINATION_ARBC</text>
+        </name>
+      </transition>
+      <transition id="SESSION_REJECTED_ARBC_RTM">
+        <name>
+          <text>SESSION_REJECTED_ARBC_RTM</text>
+        </name>
+      </transition>
+      <transition id="RX_POS_REPORT_HRBC">
+        <name>
+          <text>RX_POS_REPORT_HRBC</text>
+        </name>
+      </transition>
+      <transition id="RX_HRBC_TERMINATION_ORDER_RTM">
+        <name>
+          <text>RX_HRBC_TERMINATION_ORDER_RTM</text>
+        </name>
+      </transition>
+      <transition id="COORDINATE_MA_HRBC">
+        <name>
+          <text>COORDINATE_MA_HRBC</text>
+        </name>
+      </transition>
+      <transition id="ACK_TAKEOVER_HRBC">
+        <name>
+          <text>ACK_TAKEOVER_HRBC</text>
+        </name>
+      </transition>
+      <transition id="EMERGENCY_BRAKE_EVC">
+        <name>
+          <text>EMERGENCY_BRAKE_EVC</text>
+        </name>
+      </transition>
+      <transition id="EVALUATE_REAR_EVC">
+        <name>
+          <text>EVALUATE_REAR_EVC</text>
+        </name>
+      </transition>
+      <transition id="EVALUATE_SESSION_REQ_ARBC">
+        <name>
+          <text>EVALUATE_SESSION_REQ_ARBC</text>
+        </name>
+      </transition>
+      <transition id="RX_HRBC_TRANSITION_ORDER_RTM">
+        <name>
+          <text>RX_HRBC_TRANSITION_ORDER_RTM</text>
+        </name>
+      </transition>
+      <transition id="REJECT_SESSION_ARBC">
+        <name>
+          <text>REJECT_SESSION_ARBC</text>
+        </name>
+      </transition>
+      <transition id="SESSION_ESTABLISHED_ARBC_RTM">
+        <name>
+          <text>SESSION_ESTABLISHED_ARBC_RTM</text>
+        </name>
+      </transition>
+      <transition id="TX_GRANT_SUPERVISION_ARBC">
+        <name>
+          <text>TX_GRANT_SUPERVISION_ARBC</text>
+        </name>
+      </transition>
+      <transition id="TX_TRANSITION_ORDER_HRBC">
+        <name>
+          <text>TX_TRANSITION_ORDER_HRBC</text>
+        </name>
+      </transition>
+      <transition id="■">
+        <name>
+          <text>■</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="50812bf2-7fe7-4e75-b14a-40ca182fbcf8"/>
+      </transition>
+      <transition id="TX_POS_REPORT_RTM">
+        <name>
+          <text>TX_POS_REPORT_RTM</text>
+        </name>
+      </transition>
+      <transition id="TX_TERMINATION_ORDER_HRBC">
+        <name>
+          <text>TX_TERMINATION_ORDER_HRBC</text>
+        </name>
+      </transition>
+      <arc id="2419172238864" source="EVALUATE_REAR_EVC" target="21"/>
+      <arc id="2419172235152" source="FORWARD_ANNOUNCEMENT_TO_ARBC_HRBC" target="16"/>
+      <arc id="2419172240592" source="TX_TERMINATION_ORDER_HRBC" target="22"/>
+      <arc id="2419172208144" source="DISPLAY_UPDATE_DMI" target="8"/>
+      <arc id="2419172208272" source="EVALUATE_REAR_EVC" target="8"/>
+      <arc id="2419169726608" source="■" target="sink"/>
+      <arc id="2419172201104" source="PROCESS_COORDINATION_ARBC" target="4"/>
+      <arc id="2419172201232" source="4" target="TX_TRANSITION_ORDER_HRBC"/>
+      <arc id="2419172203408" source="TX_TRANSITION_ORDER_HRBC" target="5"/>
+      <arc id="2419172203536" source="5" target="RX_HRBC_TRANSITION_ORDER_RTM"/>
+      <arc id="2419172203792" source="RX_HRBC_TRANSITION_ORDER_RTM" target="6"/>
+      <arc id="2419172208400" source="FORWARD_ANNOUNCEMENT_TO_ARBC_HRBC" target="8"/>
+      <arc id="2419172208528" source="TERMINATE_SESSION_HRBC_RTM" target="8"/>
+      <arc id="2419172233552" source="14" target="RX_POS_REPORT_HRBC"/>
+      <arc id="2419172234512" source="RX_POS_REPORT_HRBC" target="15"/>
+      <arc id="2419172235536" source="16" target="EVALUATE_REAR_EVC"/>
+      <arc id="2419172209104" source="8" target="TX_POS_REPORT_RTM"/>
+      <arc id="2419172233680" source="TX_POS_REPORT_RTM" target="14"/>
+      <arc id="2419172239632" source="21" target="TX_POS_REPORT_RTM"/>
+      <arc id="2419172241872" source="24" target="■"/>
+      <arc id="2419172209232" source="8" target="■"/>
+      <arc id="2419172236304" source="RX_POS_REPORT_ARBC" target="17"/>
+      <arc id="2419172208656" source="8" target="EVALUATE_REAR_EVC"/>
+      <arc id="2419172238416" source="RX_ARBC_GRANT_SUPERVISION_RTM" target="19"/>
+      <arc id="2419172236432" source="ACK_TAKEOVER_HRBC" target="17"/>
+      <arc id="2419172230352" source="ACCEPT_SESSION_ARBC" target="11"/>
+      <arc id="2419172234448" source="15" target="TX_TERMINATION_ORDER_HRBC"/>
+      <arc id="2419172238544" source="EMERGENCY_BRAKE_EVC" target="24"/>
+      <arc id="2419172241040" source="23" target="TERMINATE_SESSION_HRBC_RTM"/>
+      <arc id="2419172243152" source="26" target="EMERGENCY_BRAKE_EVC"/>
+      <arc id="2419172241168" source="RX_HRBC_TERMINATION_ORDER_RTM" target="23"/>
+      <arc id="2419172243280" source="SESSION_REJECTED_ARBC_RTM" target="26"/>
+      <arc id="2419172235216" source="APPLY_SUPERVISION_EVC" target="16"/>
+      <arc id="2419172206928" source="7" target="DISPLAY_UPDATE_DMI"/>
+      <arc id="2419172206416" source="APPLY_SUPERVISION_EVC" target="7"/>
+      <arc id="2419172206800" source="PROCESS_MA_EVC" target="7"/>
+      <arc id="2419172206544" source="EMERGENCY_BRAKE_EVC" target="7"/>
+      <arc id="2419172196816" source="COORDINATE_MA_HRBC" target="3"/>
+      <arc id="2419172210896" source="source" target="COORDINATE_MA_HRBC"/>
+      <arc id="2419172196944" source="3" target="PROCESS_COORDINATION_ARBC"/>
+      <arc id="2419172203856" source="6" target="PROCESS_MA_EVC"/>
+      <arc id="2419172206672" source="EVALUATE_FRONT_EVC" target="7"/>
+      <arc id="2419172208784" source="8" target="REQ_SESSION_ARBC_RTM"/>
+      <arc id="2419172208912" source="8" target="RX_POS_REPORT_ARBC"/>
+      <arc id="2419172229392" source="EVALUATE_SESSION_REQ_ARBC" target="10"/>
+      <arc id="2419172229520" source="10" target="ACCEPT_SESSION_ARBC"/>
+      <arc id="2419172231376" source="SESSION_ESTABLISHED_ARBC_RTM" target="12"/>
+      <arc id="2419172235600" source="16" target="RX_POS_REPORT_ARBC"/>
+      <arc id="2419172229648" source="10" target="REJECT_SESSION_ARBC"/>
+      <arc id="2419172237840" source="TX_GRANT_SUPERVISION_ARBC" target="18"/>
+      <arc id="2419172237712" source="18" target="RX_ARBC_GRANT_SUPERVISION_RTM"/>
+      <arc id="2419172239696" source="EVALUATE_FRONT_EVC" target="21"/>
+      <arc id="2419172235856" source="REJECT_SESSION_ARBC" target="25"/>
+      <arc id="2419172231248" source="12" target="EVALUATE_FRONT_EVC"/>
+      <arc id="2419172241424" source="TERMINATE_SESSION_HRBC_RTM" target="24"/>
+      <arc id="2419172242320" source="25" target="SESSION_REJECTED_ARBC_RTM"/>
+      <arc id="2419172238352" source="19" target="APPLY_SUPERVISION_EVC"/>
+      <arc id="2419172211792" source="REQ_SESSION_ARBC_RTM" target="9"/>
+      <arc id="2419172234384" source="15" target="FORWARD_ANNOUNCEMENT_TO_ARBC_HRBC"/>
+      <arc id="2419172236368" source="17" target="ACK_TAKEOVER_HRBC"/>
+      <arc id="2419172211920" source="9" target="EVALUATE_SESSION_REQ_ARBC"/>
+      <arc id="2419172240464" source="22" target="RX_HRBC_TERMINATION_ORDER_RTM"/>
+      <arc id="2419172230416" source="11" target="SESSION_ESTABLISHED_ARBC_RTM"/>
+      <arc id="2419172236624" source="17" target="TX_GRANT_SUPERVISION_ARBC"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

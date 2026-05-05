@@ -1,0 +1,4521 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="TC_NORM_001" />
+		<event>
+			<string key="EventID" value="TC_NORM_001_E001" />
+			<date key="time:timestamp" value="2024-01-01T00:00:01" />
+			<string key="concept:name" value="COORDINATE_MA_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_001_E002" />
+			<date key="time:timestamp" value="2024-01-01T00:00:02" />
+			<string key="concept:name" value="PROCESS_COORDINATION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_001_E003" />
+			<date key="time:timestamp" value="2024-01-01T00:00:03" />
+			<string key="concept:name" value="TX_TRANSITION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_001_E004" />
+			<date key="time:timestamp" value="2024-01-01T00:00:04" />
+			<string key="concept:name" value="RX_HRBC_TRANSITION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_001_E005" />
+			<date key="time:timestamp" value="2024-01-01T00:00:05" />
+			<string key="concept:name" value="PROCESS_MA_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_001_E006" />
+			<date key="time:timestamp" value="2024-01-01T00:00:06" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_001_E007" />
+			<date key="time:timestamp" value="2024-01-01T00:00:07" />
+			<string key="concept:name" value="REQ_SESSION_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_001_E008" />
+			<date key="time:timestamp" value="2024-01-01T00:00:08" />
+			<string key="concept:name" value="EVALUATE_SESSION_REQ_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_001_E009" />
+			<date key="time:timestamp" value="2024-01-01T00:00:09" />
+			<string key="concept:name" value="ACCEPT_SESSION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_001_E010" />
+			<date key="time:timestamp" value="2024-01-01T00:00:10" />
+			<string key="concept:name" value="SESSION_ESTABLISHED_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_001_E021" />
+			<date key="time:timestamp" value="2024-01-01T00:00:21" />
+			<string key="concept:name" value="EVALUATE_FRONT_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_001_E022" />
+			<date key="time:timestamp" value="2024-01-01T00:00:22" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_001_E023" />
+			<date key="time:timestamp" value="2024-01-01T00:00:23" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_001_E024" />
+			<date key="time:timestamp" value="2024-01-01T00:00:24" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_001_E025" />
+			<date key="time:timestamp" value="2024-01-01T00:00:25" />
+			<string key="concept:name" value="FORWARD_ANNOUNCEMENT_TO_ARBC_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_001_E026" />
+			<date key="time:timestamp" value="2024-01-01T00:00:26" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_001_E027" />
+			<date key="time:timestamp" value="2024-01-01T00:00:27" />
+			<string key="concept:name" value="ACK_TAKEOVER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_001_E028" />
+			<date key="time:timestamp" value="2024-01-01T00:00:28" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_001_E029" />
+			<date key="time:timestamp" value="2024-01-01T00:00:29" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_001_E030" />
+			<date key="time:timestamp" value="2024-01-01T00:00:30" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_001_E031" />
+			<date key="time:timestamp" value="2024-01-01T00:00:31" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_001_E032" />
+			<date key="time:timestamp" value="2024-01-01T00:00:32" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_001_E033" />
+			<date key="time:timestamp" value="2024-01-01T00:00:33" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_001_E034" />
+			<date key="time:timestamp" value="2024-01-01T00:00:34" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_001_E035" />
+			<date key="time:timestamp" value="2024-01-01T00:00:35" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_001_E036" />
+			<date key="time:timestamp" value="2024-01-01T00:00:36" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_001_E047" />
+			<date key="time:timestamp" value="2024-01-01T00:00:47" />
+			<string key="concept:name" value="EVALUATE_REAR_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_001_E048" />
+			<date key="time:timestamp" value="2024-01-01T00:00:48" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_001_E049" />
+			<date key="time:timestamp" value="2024-01-01T00:00:49" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_001_E050" />
+			<date key="time:timestamp" value="2024-01-01T00:00:50" />
+			<string key="concept:name" value="TX_TERMINATION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_001_E051" />
+			<date key="time:timestamp" value="2024-01-01T00:00:51" />
+			<string key="concept:name" value="RX_HRBC_TERMINATION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_001_E052" />
+			<date key="time:timestamp" value="2024-01-01T00:00:52" />
+			<string key="concept:name" value="TERMINATE_SESSION_HRBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="TC_ANOM_001" />
+		<event>
+			<string key="EventID" value="TC_ANOM_001_E001" />
+			<date key="time:timestamp" value="2024-01-01T00:00:01" />
+			<string key="concept:name" value="COORDINATE_MA_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_ANOM_001_E002" />
+			<date key="time:timestamp" value="2024-01-01T00:00:02" />
+			<string key="concept:name" value="PROCESS_COORDINATION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_ANOM_001_E003" />
+			<date key="time:timestamp" value="2024-01-01T00:00:03" />
+			<string key="concept:name" value="TX_TRANSITION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_ANOM_001_E004" />
+			<date key="time:timestamp" value="2024-01-01T00:00:04" />
+			<string key="concept:name" value="RX_HRBC_TRANSITION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_ANOM_001_E005" />
+			<date key="time:timestamp" value="2024-01-01T00:00:05" />
+			<string key="concept:name" value="PROCESS_MA_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_ANOM_001_E006" />
+			<date key="time:timestamp" value="2024-01-01T00:00:06" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_ANOM_001_E007" />
+			<date key="time:timestamp" value="2024-01-01T00:00:07" />
+			<string key="concept:name" value="REQ_SESSION_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_ANOM_001_E008" />
+			<date key="time:timestamp" value="2024-01-01T00:00:08" />
+			<string key="concept:name" value="EVALUATE_SESSION_REQ_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_ANOM_001_E009" />
+			<date key="time:timestamp" value="2024-01-01T00:00:09" />
+			<string key="concept:name" value="REJECT_SESSION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_ANOM_001_E010" />
+			<date key="time:timestamp" value="2024-01-01T00:00:10" />
+			<string key="concept:name" value="SESSION_REJECTED_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_ANOM_001_E011" />
+			<date key="time:timestamp" value="2024-01-01T00:00:11" />
+			<string key="concept:name" value="EMERGENCY_BRAKE_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_ANOM_001_E012" />
+			<date key="time:timestamp" value="2024-01-01T00:00:12" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="TC_NORM_022" />
+		<event>
+			<string key="EventID" value="TC_NORM_022_E001" />
+			<date key="time:timestamp" value="2024-01-01T00:00:01" />
+			<string key="concept:name" value="COORDINATE_MA_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_022_E002" />
+			<date key="time:timestamp" value="2024-01-01T00:00:02" />
+			<string key="concept:name" value="PROCESS_COORDINATION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_022_E003" />
+			<date key="time:timestamp" value="2024-01-01T00:00:03" />
+			<string key="concept:name" value="TX_TRANSITION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_022_E004" />
+			<date key="time:timestamp" value="2024-01-01T00:00:04" />
+			<string key="concept:name" value="RX_HRBC_TRANSITION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_022_E005" />
+			<date key="time:timestamp" value="2024-01-01T00:00:05" />
+			<string key="concept:name" value="PROCESS_MA_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_022_E006" />
+			<date key="time:timestamp" value="2024-01-01T00:00:06" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_022_E007" />
+			<date key="time:timestamp" value="2024-01-01T00:00:07" />
+			<string key="concept:name" value="REQ_SESSION_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_022_E008" />
+			<date key="time:timestamp" value="2024-01-01T00:00:08" />
+			<string key="concept:name" value="EVALUATE_SESSION_REQ_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_022_E009" />
+			<date key="time:timestamp" value="2024-01-01T00:00:09" />
+			<string key="concept:name" value="ACCEPT_SESSION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_022_E010" />
+			<date key="time:timestamp" value="2024-01-01T00:00:10" />
+			<string key="concept:name" value="SESSION_ESTABLISHED_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_022_E021" />
+			<date key="time:timestamp" value="2024-01-01T00:00:21" />
+			<string key="concept:name" value="EVALUATE_FRONT_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_022_E022" />
+			<date key="time:timestamp" value="2024-01-01T00:00:22" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_022_E023" />
+			<date key="time:timestamp" value="2024-01-01T00:00:23" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_022_E024" />
+			<date key="time:timestamp" value="2024-01-01T00:00:24" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_022_E025" />
+			<date key="time:timestamp" value="2024-01-01T00:00:25" />
+			<string key="concept:name" value="FORWARD_ANNOUNCEMENT_TO_ARBC_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_022_E026" />
+			<date key="time:timestamp" value="2024-01-01T00:00:26" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_022_E027" />
+			<date key="time:timestamp" value="2024-01-01T00:00:27" />
+			<string key="concept:name" value="ACK_TAKEOVER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_022_E028" />
+			<date key="time:timestamp" value="2024-01-01T00:00:28" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_022_E029" />
+			<date key="time:timestamp" value="2024-01-01T00:00:29" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_022_E030" />
+			<date key="time:timestamp" value="2024-01-01T00:00:30" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_022_E031" />
+			<date key="time:timestamp" value="2024-01-01T00:00:31" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_022_E032" />
+			<date key="time:timestamp" value="2024-01-01T00:00:32" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_022_E033" />
+			<date key="time:timestamp" value="2024-01-01T00:00:33" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_022_E034" />
+			<date key="time:timestamp" value="2024-01-01T00:00:34" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_022_E035" />
+			<date key="time:timestamp" value="2024-01-01T00:00:35" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_022_E036" />
+			<date key="time:timestamp" value="2024-01-01T00:00:36" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_022_E047" />
+			<date key="time:timestamp" value="2024-01-01T00:00:47" />
+			<string key="concept:name" value="EVALUATE_REAR_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_022_E048" />
+			<date key="time:timestamp" value="2024-01-01T00:00:48" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_022_E049" />
+			<date key="time:timestamp" value="2024-01-01T00:00:49" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_022_E050" />
+			<date key="time:timestamp" value="2024-01-01T00:00:50" />
+			<string key="concept:name" value="TX_TERMINATION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_022_E051" />
+			<date key="time:timestamp" value="2024-01-01T00:00:51" />
+			<string key="concept:name" value="RX_HRBC_TERMINATION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_022_E052" />
+			<date key="time:timestamp" value="2024-01-01T00:00:52" />
+			<string key="concept:name" value="TERMINATE_SESSION_HRBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="TC_NORM_003" />
+		<event>
+			<string key="EventID" value="TC_NORM_003_E001" />
+			<date key="time:timestamp" value="2024-01-01T00:00:01" />
+			<string key="concept:name" value="COORDINATE_MA_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_003_E002" />
+			<date key="time:timestamp" value="2024-01-01T00:00:02" />
+			<string key="concept:name" value="PROCESS_COORDINATION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_003_E003" />
+			<date key="time:timestamp" value="2024-01-01T00:00:03" />
+			<string key="concept:name" value="TX_TRANSITION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_003_E004" />
+			<date key="time:timestamp" value="2024-01-01T00:00:04" />
+			<string key="concept:name" value="RX_HRBC_TRANSITION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_003_E005" />
+			<date key="time:timestamp" value="2024-01-01T00:00:05" />
+			<string key="concept:name" value="PROCESS_MA_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_003_E006" />
+			<date key="time:timestamp" value="2024-01-01T00:00:06" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_003_E007" />
+			<date key="time:timestamp" value="2024-01-01T00:00:07" />
+			<string key="concept:name" value="REQ_SESSION_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_003_E008" />
+			<date key="time:timestamp" value="2024-01-01T00:00:08" />
+			<string key="concept:name" value="EVALUATE_SESSION_REQ_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_003_E009" />
+			<date key="time:timestamp" value="2024-01-01T00:00:09" />
+			<string key="concept:name" value="ACCEPT_SESSION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_003_E010" />
+			<date key="time:timestamp" value="2024-01-01T00:00:10" />
+			<string key="concept:name" value="SESSION_ESTABLISHED_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_003_E018" />
+			<date key="time:timestamp" value="2024-01-01T00:00:18" />
+			<string key="concept:name" value="EVALUATE_FRONT_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_003_E019" />
+			<date key="time:timestamp" value="2024-01-01T00:00:19" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_003_E020" />
+			<date key="time:timestamp" value="2024-01-01T00:00:20" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_003_E021" />
+			<date key="time:timestamp" value="2024-01-01T00:00:21" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_003_E022" />
+			<date key="time:timestamp" value="2024-01-01T00:00:22" />
+			<string key="concept:name" value="FORWARD_ANNOUNCEMENT_TO_ARBC_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_003_E023" />
+			<date key="time:timestamp" value="2024-01-01T00:00:23" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_003_E024" />
+			<date key="time:timestamp" value="2024-01-01T00:00:24" />
+			<string key="concept:name" value="ACK_TAKEOVER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_003_E025" />
+			<date key="time:timestamp" value="2024-01-01T00:00:25" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_003_E026" />
+			<date key="time:timestamp" value="2024-01-01T00:00:26" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_003_E027" />
+			<date key="time:timestamp" value="2024-01-01T00:00:27" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_003_E028" />
+			<date key="time:timestamp" value="2024-01-01T00:00:28" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_003_E029" />
+			<date key="time:timestamp" value="2024-01-01T00:00:29" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_003_E030" />
+			<date key="time:timestamp" value="2024-01-01T00:00:30" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_003_E031" />
+			<date key="time:timestamp" value="2024-01-01T00:00:31" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_003_E032" />
+			<date key="time:timestamp" value="2024-01-01T00:00:32" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_003_E033" />
+			<date key="time:timestamp" value="2024-01-01T00:00:33" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_003_E041" />
+			<date key="time:timestamp" value="2024-01-01T00:00:41" />
+			<string key="concept:name" value="EVALUATE_REAR_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_003_E042" />
+			<date key="time:timestamp" value="2024-01-01T00:00:42" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_003_E043" />
+			<date key="time:timestamp" value="2024-01-01T00:00:43" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_003_E044" />
+			<date key="time:timestamp" value="2024-01-01T00:00:44" />
+			<string key="concept:name" value="TX_TERMINATION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_003_E045" />
+			<date key="time:timestamp" value="2024-01-01T00:00:45" />
+			<string key="concept:name" value="RX_HRBC_TERMINATION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_003_E046" />
+			<date key="time:timestamp" value="2024-01-01T00:00:46" />
+			<string key="concept:name" value="TERMINATE_SESSION_HRBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="TC_NORM_021" />
+		<event>
+			<string key="EventID" value="TC_NORM_021_E001" />
+			<date key="time:timestamp" value="2024-01-01T00:00:01" />
+			<string key="concept:name" value="COORDINATE_MA_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_021_E002" />
+			<date key="time:timestamp" value="2024-01-01T00:00:02" />
+			<string key="concept:name" value="PROCESS_COORDINATION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_021_E003" />
+			<date key="time:timestamp" value="2024-01-01T00:00:03" />
+			<string key="concept:name" value="TX_TRANSITION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_021_E004" />
+			<date key="time:timestamp" value="2024-01-01T00:00:04" />
+			<string key="concept:name" value="RX_HRBC_TRANSITION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_021_E005" />
+			<date key="time:timestamp" value="2024-01-01T00:00:05" />
+			<string key="concept:name" value="PROCESS_MA_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_021_E006" />
+			<date key="time:timestamp" value="2024-01-01T00:00:06" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_021_E007" />
+			<date key="time:timestamp" value="2024-01-01T00:00:07" />
+			<string key="concept:name" value="REQ_SESSION_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_021_E008" />
+			<date key="time:timestamp" value="2024-01-01T00:00:08" />
+			<string key="concept:name" value="EVALUATE_SESSION_REQ_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_021_E009" />
+			<date key="time:timestamp" value="2024-01-01T00:00:09" />
+			<string key="concept:name" value="ACCEPT_SESSION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_021_E010" />
+			<date key="time:timestamp" value="2024-01-01T00:00:10" />
+			<string key="concept:name" value="SESSION_ESTABLISHED_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_021_E018" />
+			<date key="time:timestamp" value="2024-01-01T00:00:18" />
+			<string key="concept:name" value="EVALUATE_FRONT_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_021_E019" />
+			<date key="time:timestamp" value="2024-01-01T00:00:19" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_021_E020" />
+			<date key="time:timestamp" value="2024-01-01T00:00:20" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_021_E021" />
+			<date key="time:timestamp" value="2024-01-01T00:00:21" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_021_E022" />
+			<date key="time:timestamp" value="2024-01-01T00:00:22" />
+			<string key="concept:name" value="FORWARD_ANNOUNCEMENT_TO_ARBC_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_021_E023" />
+			<date key="time:timestamp" value="2024-01-01T00:00:23" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_021_E024" />
+			<date key="time:timestamp" value="2024-01-01T00:00:24" />
+			<string key="concept:name" value="ACK_TAKEOVER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_021_E025" />
+			<date key="time:timestamp" value="2024-01-01T00:00:25" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_021_E026" />
+			<date key="time:timestamp" value="2024-01-01T00:00:26" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_021_E027" />
+			<date key="time:timestamp" value="2024-01-01T00:00:27" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_021_E028" />
+			<date key="time:timestamp" value="2024-01-01T00:00:28" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_021_E029" />
+			<date key="time:timestamp" value="2024-01-01T00:00:29" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_021_E030" />
+			<date key="time:timestamp" value="2024-01-01T00:00:30" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_021_E031" />
+			<date key="time:timestamp" value="2024-01-01T00:00:31" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_021_E032" />
+			<date key="time:timestamp" value="2024-01-01T00:00:32" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_021_E033" />
+			<date key="time:timestamp" value="2024-01-01T00:00:33" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_021_E041" />
+			<date key="time:timestamp" value="2024-01-01T00:00:41" />
+			<string key="concept:name" value="EVALUATE_REAR_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_021_E042" />
+			<date key="time:timestamp" value="2024-01-01T00:00:42" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_021_E043" />
+			<date key="time:timestamp" value="2024-01-01T00:00:43" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_021_E044" />
+			<date key="time:timestamp" value="2024-01-01T00:00:44" />
+			<string key="concept:name" value="TX_TERMINATION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_021_E045" />
+			<date key="time:timestamp" value="2024-01-01T00:00:45" />
+			<string key="concept:name" value="RX_HRBC_TERMINATION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_021_E046" />
+			<date key="time:timestamp" value="2024-01-01T00:00:46" />
+			<string key="concept:name" value="TERMINATE_SESSION_HRBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="TC_NORM_020" />
+		<event>
+			<string key="EventID" value="TC_NORM_020_E001" />
+			<date key="time:timestamp" value="2024-01-01T00:00:01" />
+			<string key="concept:name" value="COORDINATE_MA_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_020_E002" />
+			<date key="time:timestamp" value="2024-01-01T00:00:02" />
+			<string key="concept:name" value="PROCESS_COORDINATION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_020_E003" />
+			<date key="time:timestamp" value="2024-01-01T00:00:03" />
+			<string key="concept:name" value="TX_TRANSITION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_020_E004" />
+			<date key="time:timestamp" value="2024-01-01T00:00:04" />
+			<string key="concept:name" value="RX_HRBC_TRANSITION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_020_E005" />
+			<date key="time:timestamp" value="2024-01-01T00:00:05" />
+			<string key="concept:name" value="PROCESS_MA_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_020_E006" />
+			<date key="time:timestamp" value="2024-01-01T00:00:06" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_020_E007" />
+			<date key="time:timestamp" value="2024-01-01T00:00:07" />
+			<string key="concept:name" value="REQ_SESSION_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_020_E008" />
+			<date key="time:timestamp" value="2024-01-01T00:00:08" />
+			<string key="concept:name" value="EVALUATE_SESSION_REQ_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_020_E009" />
+			<date key="time:timestamp" value="2024-01-01T00:00:09" />
+			<string key="concept:name" value="ACCEPT_SESSION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_020_E010" />
+			<date key="time:timestamp" value="2024-01-01T00:00:10" />
+			<string key="concept:name" value="SESSION_ESTABLISHED_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_020_E019" />
+			<date key="time:timestamp" value="2024-01-01T00:00:19" />
+			<string key="concept:name" value="EVALUATE_FRONT_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_020_E020" />
+			<date key="time:timestamp" value="2024-01-01T00:00:20" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_020_E021" />
+			<date key="time:timestamp" value="2024-01-01T00:00:21" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_020_E022" />
+			<date key="time:timestamp" value="2024-01-01T00:00:22" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_020_E023" />
+			<date key="time:timestamp" value="2024-01-01T00:00:23" />
+			<string key="concept:name" value="FORWARD_ANNOUNCEMENT_TO_ARBC_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_020_E024" />
+			<date key="time:timestamp" value="2024-01-01T00:00:24" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_020_E025" />
+			<date key="time:timestamp" value="2024-01-01T00:00:25" />
+			<string key="concept:name" value="ACK_TAKEOVER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_020_E026" />
+			<date key="time:timestamp" value="2024-01-01T00:00:26" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_020_E027" />
+			<date key="time:timestamp" value="2024-01-01T00:00:27" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_020_E028" />
+			<date key="time:timestamp" value="2024-01-01T00:00:28" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_020_E029" />
+			<date key="time:timestamp" value="2024-01-01T00:00:29" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_020_E030" />
+			<date key="time:timestamp" value="2024-01-01T00:00:30" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_020_E031" />
+			<date key="time:timestamp" value="2024-01-01T00:00:31" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_020_E032" />
+			<date key="time:timestamp" value="2024-01-01T00:00:32" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_020_E033" />
+			<date key="time:timestamp" value="2024-01-01T00:00:33" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_020_E034" />
+			<date key="time:timestamp" value="2024-01-01T00:00:34" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_020_E043" />
+			<date key="time:timestamp" value="2024-01-01T00:00:43" />
+			<string key="concept:name" value="EVALUATE_REAR_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_020_E044" />
+			<date key="time:timestamp" value="2024-01-01T00:00:44" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_020_E045" />
+			<date key="time:timestamp" value="2024-01-01T00:00:45" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_020_E046" />
+			<date key="time:timestamp" value="2024-01-01T00:00:46" />
+			<string key="concept:name" value="TX_TERMINATION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_020_E047" />
+			<date key="time:timestamp" value="2024-01-01T00:00:47" />
+			<string key="concept:name" value="RX_HRBC_TERMINATION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_020_E048" />
+			<date key="time:timestamp" value="2024-01-01T00:00:48" />
+			<string key="concept:name" value="TERMINATE_SESSION_HRBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="TC_NORM_004" />
+		<event>
+			<string key="EventID" value="TC_NORM_004_E001" />
+			<date key="time:timestamp" value="2024-01-01T00:00:01" />
+			<string key="concept:name" value="COORDINATE_MA_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_004_E002" />
+			<date key="time:timestamp" value="2024-01-01T00:00:02" />
+			<string key="concept:name" value="PROCESS_COORDINATION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_004_E003" />
+			<date key="time:timestamp" value="2024-01-01T00:00:03" />
+			<string key="concept:name" value="TX_TRANSITION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_004_E004" />
+			<date key="time:timestamp" value="2024-01-01T00:00:04" />
+			<string key="concept:name" value="RX_HRBC_TRANSITION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_004_E005" />
+			<date key="time:timestamp" value="2024-01-01T00:00:05" />
+			<string key="concept:name" value="PROCESS_MA_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_004_E006" />
+			<date key="time:timestamp" value="2024-01-01T00:00:06" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_004_E007" />
+			<date key="time:timestamp" value="2024-01-01T00:00:07" />
+			<string key="concept:name" value="REQ_SESSION_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_004_E008" />
+			<date key="time:timestamp" value="2024-01-01T00:00:08" />
+			<string key="concept:name" value="EVALUATE_SESSION_REQ_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_004_E009" />
+			<date key="time:timestamp" value="2024-01-01T00:00:09" />
+			<string key="concept:name" value="ACCEPT_SESSION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_004_E010" />
+			<date key="time:timestamp" value="2024-01-01T00:00:10" />
+			<string key="concept:name" value="SESSION_ESTABLISHED_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_004_E021" />
+			<date key="time:timestamp" value="2024-01-01T00:00:21" />
+			<string key="concept:name" value="EVALUATE_FRONT_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_004_E022" />
+			<date key="time:timestamp" value="2024-01-01T00:00:22" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_004_E023" />
+			<date key="time:timestamp" value="2024-01-01T00:00:23" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_004_E024" />
+			<date key="time:timestamp" value="2024-01-01T00:00:24" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_004_E025" />
+			<date key="time:timestamp" value="2024-01-01T00:00:25" />
+			<string key="concept:name" value="FORWARD_ANNOUNCEMENT_TO_ARBC_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_004_E026" />
+			<date key="time:timestamp" value="2024-01-01T00:00:26" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_004_E027" />
+			<date key="time:timestamp" value="2024-01-01T00:00:27" />
+			<string key="concept:name" value="ACK_TAKEOVER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_004_E028" />
+			<date key="time:timestamp" value="2024-01-01T00:00:28" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_004_E029" />
+			<date key="time:timestamp" value="2024-01-01T00:00:29" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_004_E030" />
+			<date key="time:timestamp" value="2024-01-01T00:00:30" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_004_E031" />
+			<date key="time:timestamp" value="2024-01-01T00:00:31" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_004_E032" />
+			<date key="time:timestamp" value="2024-01-01T00:00:32" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_004_E033" />
+			<date key="time:timestamp" value="2024-01-01T00:00:33" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_004_E034" />
+			<date key="time:timestamp" value="2024-01-01T00:00:34" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_004_E035" />
+			<date key="time:timestamp" value="2024-01-01T00:00:35" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_004_E036" />
+			<date key="time:timestamp" value="2024-01-01T00:00:36" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_004_E047" />
+			<date key="time:timestamp" value="2024-01-01T00:00:47" />
+			<string key="concept:name" value="EVALUATE_REAR_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_004_E048" />
+			<date key="time:timestamp" value="2024-01-01T00:00:48" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_004_E049" />
+			<date key="time:timestamp" value="2024-01-01T00:00:49" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_004_E050" />
+			<date key="time:timestamp" value="2024-01-01T00:00:50" />
+			<string key="concept:name" value="TX_TERMINATION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_004_E051" />
+			<date key="time:timestamp" value="2024-01-01T00:00:51" />
+			<string key="concept:name" value="RX_HRBC_TERMINATION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_004_E052" />
+			<date key="time:timestamp" value="2024-01-01T00:00:52" />
+			<string key="concept:name" value="TERMINATE_SESSION_HRBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="TC_NORM_019" />
+		<event>
+			<string key="EventID" value="TC_NORM_019_E001" />
+			<date key="time:timestamp" value="2024-01-01T00:00:01" />
+			<string key="concept:name" value="COORDINATE_MA_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_019_E002" />
+			<date key="time:timestamp" value="2024-01-01T00:00:02" />
+			<string key="concept:name" value="PROCESS_COORDINATION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_019_E003" />
+			<date key="time:timestamp" value="2024-01-01T00:00:03" />
+			<string key="concept:name" value="TX_TRANSITION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_019_E004" />
+			<date key="time:timestamp" value="2024-01-01T00:00:04" />
+			<string key="concept:name" value="RX_HRBC_TRANSITION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_019_E005" />
+			<date key="time:timestamp" value="2024-01-01T00:00:05" />
+			<string key="concept:name" value="PROCESS_MA_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_019_E006" />
+			<date key="time:timestamp" value="2024-01-01T00:00:06" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_019_E007" />
+			<date key="time:timestamp" value="2024-01-01T00:00:07" />
+			<string key="concept:name" value="REQ_SESSION_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_019_E008" />
+			<date key="time:timestamp" value="2024-01-01T00:00:08" />
+			<string key="concept:name" value="EVALUATE_SESSION_REQ_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_019_E009" />
+			<date key="time:timestamp" value="2024-01-01T00:00:09" />
+			<string key="concept:name" value="ACCEPT_SESSION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_019_E010" />
+			<date key="time:timestamp" value="2024-01-01T00:00:10" />
+			<string key="concept:name" value="SESSION_ESTABLISHED_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_019_E021" />
+			<date key="time:timestamp" value="2024-01-01T00:00:21" />
+			<string key="concept:name" value="EVALUATE_FRONT_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_019_E022" />
+			<date key="time:timestamp" value="2024-01-01T00:00:22" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_019_E023" />
+			<date key="time:timestamp" value="2024-01-01T00:00:23" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_019_E024" />
+			<date key="time:timestamp" value="2024-01-01T00:00:24" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_019_E025" />
+			<date key="time:timestamp" value="2024-01-01T00:00:25" />
+			<string key="concept:name" value="FORWARD_ANNOUNCEMENT_TO_ARBC_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_019_E026" />
+			<date key="time:timestamp" value="2024-01-01T00:00:26" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_019_E027" />
+			<date key="time:timestamp" value="2024-01-01T00:00:27" />
+			<string key="concept:name" value="ACK_TAKEOVER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_019_E028" />
+			<date key="time:timestamp" value="2024-01-01T00:00:28" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_019_E029" />
+			<date key="time:timestamp" value="2024-01-01T00:00:29" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_019_E030" />
+			<date key="time:timestamp" value="2024-01-01T00:00:30" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_019_E031" />
+			<date key="time:timestamp" value="2024-01-01T00:00:31" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_019_E032" />
+			<date key="time:timestamp" value="2024-01-01T00:00:32" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_019_E033" />
+			<date key="time:timestamp" value="2024-01-01T00:00:33" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_019_E034" />
+			<date key="time:timestamp" value="2024-01-01T00:00:34" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_019_E035" />
+			<date key="time:timestamp" value="2024-01-01T00:00:35" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_019_E036" />
+			<date key="time:timestamp" value="2024-01-01T00:00:36" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_019_E047" />
+			<date key="time:timestamp" value="2024-01-01T00:00:47" />
+			<string key="concept:name" value="EVALUATE_REAR_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_019_E048" />
+			<date key="time:timestamp" value="2024-01-01T00:00:48" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_019_E049" />
+			<date key="time:timestamp" value="2024-01-01T00:00:49" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_019_E050" />
+			<date key="time:timestamp" value="2024-01-01T00:00:50" />
+			<string key="concept:name" value="TX_TERMINATION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_019_E051" />
+			<date key="time:timestamp" value="2024-01-01T00:00:51" />
+			<string key="concept:name" value="RX_HRBC_TERMINATION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_019_E052" />
+			<date key="time:timestamp" value="2024-01-01T00:00:52" />
+			<string key="concept:name" value="TERMINATE_SESSION_HRBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="TC_NORM_018" />
+		<event>
+			<string key="EventID" value="TC_NORM_018_E001" />
+			<date key="time:timestamp" value="2024-01-01T00:00:01" />
+			<string key="concept:name" value="COORDINATE_MA_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_018_E002" />
+			<date key="time:timestamp" value="2024-01-01T00:00:02" />
+			<string key="concept:name" value="PROCESS_COORDINATION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_018_E003" />
+			<date key="time:timestamp" value="2024-01-01T00:00:03" />
+			<string key="concept:name" value="TX_TRANSITION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_018_E004" />
+			<date key="time:timestamp" value="2024-01-01T00:00:04" />
+			<string key="concept:name" value="RX_HRBC_TRANSITION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_018_E005" />
+			<date key="time:timestamp" value="2024-01-01T00:00:05" />
+			<string key="concept:name" value="PROCESS_MA_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_018_E006" />
+			<date key="time:timestamp" value="2024-01-01T00:00:06" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_018_E007" />
+			<date key="time:timestamp" value="2024-01-01T00:00:07" />
+			<string key="concept:name" value="REQ_SESSION_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_018_E008" />
+			<date key="time:timestamp" value="2024-01-01T00:00:08" />
+			<string key="concept:name" value="EVALUATE_SESSION_REQ_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_018_E009" />
+			<date key="time:timestamp" value="2024-01-01T00:00:09" />
+			<string key="concept:name" value="ACCEPT_SESSION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_018_E010" />
+			<date key="time:timestamp" value="2024-01-01T00:00:10" />
+			<string key="concept:name" value="SESSION_ESTABLISHED_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_018_E018" />
+			<date key="time:timestamp" value="2024-01-01T00:00:18" />
+			<string key="concept:name" value="EVALUATE_FRONT_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_018_E019" />
+			<date key="time:timestamp" value="2024-01-01T00:00:19" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_018_E020" />
+			<date key="time:timestamp" value="2024-01-01T00:00:20" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_018_E021" />
+			<date key="time:timestamp" value="2024-01-01T00:00:21" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_018_E022" />
+			<date key="time:timestamp" value="2024-01-01T00:00:22" />
+			<string key="concept:name" value="FORWARD_ANNOUNCEMENT_TO_ARBC_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_018_E023" />
+			<date key="time:timestamp" value="2024-01-01T00:00:23" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_018_E024" />
+			<date key="time:timestamp" value="2024-01-01T00:00:24" />
+			<string key="concept:name" value="ACK_TAKEOVER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_018_E025" />
+			<date key="time:timestamp" value="2024-01-01T00:00:25" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_018_E026" />
+			<date key="time:timestamp" value="2024-01-01T00:00:26" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_018_E027" />
+			<date key="time:timestamp" value="2024-01-01T00:00:27" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_018_E028" />
+			<date key="time:timestamp" value="2024-01-01T00:00:28" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_018_E029" />
+			<date key="time:timestamp" value="2024-01-01T00:00:29" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_018_E030" />
+			<date key="time:timestamp" value="2024-01-01T00:00:30" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_018_E031" />
+			<date key="time:timestamp" value="2024-01-01T00:00:31" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_018_E032" />
+			<date key="time:timestamp" value="2024-01-01T00:00:32" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_018_E033" />
+			<date key="time:timestamp" value="2024-01-01T00:00:33" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_018_E041" />
+			<date key="time:timestamp" value="2024-01-01T00:00:41" />
+			<string key="concept:name" value="EVALUATE_REAR_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_018_E042" />
+			<date key="time:timestamp" value="2024-01-01T00:00:42" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_018_E043" />
+			<date key="time:timestamp" value="2024-01-01T00:00:43" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_018_E044" />
+			<date key="time:timestamp" value="2024-01-01T00:00:44" />
+			<string key="concept:name" value="TX_TERMINATION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_018_E045" />
+			<date key="time:timestamp" value="2024-01-01T00:00:45" />
+			<string key="concept:name" value="RX_HRBC_TERMINATION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_018_E046" />
+			<date key="time:timestamp" value="2024-01-01T00:00:46" />
+			<string key="concept:name" value="TERMINATE_SESSION_HRBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="TC_NORM_005" />
+		<event>
+			<string key="EventID" value="TC_NORM_005_E001" />
+			<date key="time:timestamp" value="2024-01-01T00:00:01" />
+			<string key="concept:name" value="COORDINATE_MA_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_005_E002" />
+			<date key="time:timestamp" value="2024-01-01T00:00:02" />
+			<string key="concept:name" value="PROCESS_COORDINATION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_005_E003" />
+			<date key="time:timestamp" value="2024-01-01T00:00:03" />
+			<string key="concept:name" value="TX_TRANSITION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_005_E004" />
+			<date key="time:timestamp" value="2024-01-01T00:00:04" />
+			<string key="concept:name" value="RX_HRBC_TRANSITION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_005_E005" />
+			<date key="time:timestamp" value="2024-01-01T00:00:05" />
+			<string key="concept:name" value="PROCESS_MA_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_005_E006" />
+			<date key="time:timestamp" value="2024-01-01T00:00:06" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_005_E007" />
+			<date key="time:timestamp" value="2024-01-01T00:00:07" />
+			<string key="concept:name" value="REQ_SESSION_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_005_E008" />
+			<date key="time:timestamp" value="2024-01-01T00:00:08" />
+			<string key="concept:name" value="EVALUATE_SESSION_REQ_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_005_E009" />
+			<date key="time:timestamp" value="2024-01-01T00:00:09" />
+			<string key="concept:name" value="ACCEPT_SESSION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_005_E010" />
+			<date key="time:timestamp" value="2024-01-01T00:00:10" />
+			<string key="concept:name" value="SESSION_ESTABLISHED_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_005_E019" />
+			<date key="time:timestamp" value="2024-01-01T00:00:19" />
+			<string key="concept:name" value="EVALUATE_FRONT_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_005_E020" />
+			<date key="time:timestamp" value="2024-01-01T00:00:20" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_005_E021" />
+			<date key="time:timestamp" value="2024-01-01T00:00:21" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_005_E022" />
+			<date key="time:timestamp" value="2024-01-01T00:00:22" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_005_E023" />
+			<date key="time:timestamp" value="2024-01-01T00:00:23" />
+			<string key="concept:name" value="FORWARD_ANNOUNCEMENT_TO_ARBC_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_005_E024" />
+			<date key="time:timestamp" value="2024-01-01T00:00:24" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_005_E025" />
+			<date key="time:timestamp" value="2024-01-01T00:00:25" />
+			<string key="concept:name" value="ACK_TAKEOVER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_005_E026" />
+			<date key="time:timestamp" value="2024-01-01T00:00:26" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_005_E027" />
+			<date key="time:timestamp" value="2024-01-01T00:00:27" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_005_E028" />
+			<date key="time:timestamp" value="2024-01-01T00:00:28" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_005_E029" />
+			<date key="time:timestamp" value="2024-01-01T00:00:29" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_005_E030" />
+			<date key="time:timestamp" value="2024-01-01T00:00:30" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_005_E031" />
+			<date key="time:timestamp" value="2024-01-01T00:00:31" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_005_E032" />
+			<date key="time:timestamp" value="2024-01-01T00:00:32" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_005_E033" />
+			<date key="time:timestamp" value="2024-01-01T00:00:33" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_005_E034" />
+			<date key="time:timestamp" value="2024-01-01T00:00:34" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_005_E043" />
+			<date key="time:timestamp" value="2024-01-01T00:00:43" />
+			<string key="concept:name" value="EVALUATE_REAR_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_005_E044" />
+			<date key="time:timestamp" value="2024-01-01T00:00:44" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_005_E045" />
+			<date key="time:timestamp" value="2024-01-01T00:00:45" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_005_E046" />
+			<date key="time:timestamp" value="2024-01-01T00:00:46" />
+			<string key="concept:name" value="TX_TERMINATION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_005_E047" />
+			<date key="time:timestamp" value="2024-01-01T00:00:47" />
+			<string key="concept:name" value="RX_HRBC_TERMINATION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_005_E048" />
+			<date key="time:timestamp" value="2024-01-01T00:00:48" />
+			<string key="concept:name" value="TERMINATE_SESSION_HRBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="TC_NORM_002" />
+		<event>
+			<string key="EventID" value="TC_NORM_002_E001" />
+			<date key="time:timestamp" value="2024-01-01T00:00:01" />
+			<string key="concept:name" value="COORDINATE_MA_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_002_E002" />
+			<date key="time:timestamp" value="2024-01-01T00:00:02" />
+			<string key="concept:name" value="PROCESS_COORDINATION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_002_E003" />
+			<date key="time:timestamp" value="2024-01-01T00:00:03" />
+			<string key="concept:name" value="TX_TRANSITION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_002_E004" />
+			<date key="time:timestamp" value="2024-01-01T00:00:04" />
+			<string key="concept:name" value="RX_HRBC_TRANSITION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_002_E005" />
+			<date key="time:timestamp" value="2024-01-01T00:00:05" />
+			<string key="concept:name" value="PROCESS_MA_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_002_E006" />
+			<date key="time:timestamp" value="2024-01-01T00:00:06" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_002_E007" />
+			<date key="time:timestamp" value="2024-01-01T00:00:07" />
+			<string key="concept:name" value="REQ_SESSION_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_002_E008" />
+			<date key="time:timestamp" value="2024-01-01T00:00:08" />
+			<string key="concept:name" value="EVALUATE_SESSION_REQ_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_002_E009" />
+			<date key="time:timestamp" value="2024-01-01T00:00:09" />
+			<string key="concept:name" value="ACCEPT_SESSION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_002_E010" />
+			<date key="time:timestamp" value="2024-01-01T00:00:10" />
+			<string key="concept:name" value="SESSION_ESTABLISHED_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_002_E019" />
+			<date key="time:timestamp" value="2024-01-01T00:00:19" />
+			<string key="concept:name" value="EVALUATE_FRONT_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_002_E020" />
+			<date key="time:timestamp" value="2024-01-01T00:00:20" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_002_E021" />
+			<date key="time:timestamp" value="2024-01-01T00:00:21" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_002_E022" />
+			<date key="time:timestamp" value="2024-01-01T00:00:22" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_002_E023" />
+			<date key="time:timestamp" value="2024-01-01T00:00:23" />
+			<string key="concept:name" value="FORWARD_ANNOUNCEMENT_TO_ARBC_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_002_E024" />
+			<date key="time:timestamp" value="2024-01-01T00:00:24" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_002_E025" />
+			<date key="time:timestamp" value="2024-01-01T00:00:25" />
+			<string key="concept:name" value="ACK_TAKEOVER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_002_E026" />
+			<date key="time:timestamp" value="2024-01-01T00:00:26" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_002_E027" />
+			<date key="time:timestamp" value="2024-01-01T00:00:27" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_002_E028" />
+			<date key="time:timestamp" value="2024-01-01T00:00:28" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_002_E029" />
+			<date key="time:timestamp" value="2024-01-01T00:00:29" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_002_E030" />
+			<date key="time:timestamp" value="2024-01-01T00:00:30" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_002_E031" />
+			<date key="time:timestamp" value="2024-01-01T00:00:31" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_002_E032" />
+			<date key="time:timestamp" value="2024-01-01T00:00:32" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_002_E033" />
+			<date key="time:timestamp" value="2024-01-01T00:00:33" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_002_E034" />
+			<date key="time:timestamp" value="2024-01-01T00:00:34" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_002_E043" />
+			<date key="time:timestamp" value="2024-01-01T00:00:43" />
+			<string key="concept:name" value="EVALUATE_REAR_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_002_E044" />
+			<date key="time:timestamp" value="2024-01-01T00:00:44" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_002_E045" />
+			<date key="time:timestamp" value="2024-01-01T00:00:45" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_002_E046" />
+			<date key="time:timestamp" value="2024-01-01T00:00:46" />
+			<string key="concept:name" value="TX_TERMINATION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_002_E047" />
+			<date key="time:timestamp" value="2024-01-01T00:00:47" />
+			<string key="concept:name" value="RX_HRBC_TERMINATION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_002_E048" />
+			<date key="time:timestamp" value="2024-01-01T00:00:48" />
+			<string key="concept:name" value="TERMINATE_SESSION_HRBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="TC_NORM_017" />
+		<event>
+			<string key="EventID" value="TC_NORM_017_E001" />
+			<date key="time:timestamp" value="2024-01-01T00:00:01" />
+			<string key="concept:name" value="COORDINATE_MA_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_017_E002" />
+			<date key="time:timestamp" value="2024-01-01T00:00:02" />
+			<string key="concept:name" value="PROCESS_COORDINATION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_017_E003" />
+			<date key="time:timestamp" value="2024-01-01T00:00:03" />
+			<string key="concept:name" value="TX_TRANSITION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_017_E004" />
+			<date key="time:timestamp" value="2024-01-01T00:00:04" />
+			<string key="concept:name" value="RX_HRBC_TRANSITION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_017_E005" />
+			<date key="time:timestamp" value="2024-01-01T00:00:05" />
+			<string key="concept:name" value="PROCESS_MA_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_017_E006" />
+			<date key="time:timestamp" value="2024-01-01T00:00:06" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_017_E007" />
+			<date key="time:timestamp" value="2024-01-01T00:00:07" />
+			<string key="concept:name" value="REQ_SESSION_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_017_E008" />
+			<date key="time:timestamp" value="2024-01-01T00:00:08" />
+			<string key="concept:name" value="EVALUATE_SESSION_REQ_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_017_E009" />
+			<date key="time:timestamp" value="2024-01-01T00:00:09" />
+			<string key="concept:name" value="ACCEPT_SESSION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_017_E010" />
+			<date key="time:timestamp" value="2024-01-01T00:00:10" />
+			<string key="concept:name" value="SESSION_ESTABLISHED_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_017_E019" />
+			<date key="time:timestamp" value="2024-01-01T00:00:19" />
+			<string key="concept:name" value="EVALUATE_FRONT_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_017_E020" />
+			<date key="time:timestamp" value="2024-01-01T00:00:20" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_017_E021" />
+			<date key="time:timestamp" value="2024-01-01T00:00:21" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_017_E022" />
+			<date key="time:timestamp" value="2024-01-01T00:00:22" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_017_E023" />
+			<date key="time:timestamp" value="2024-01-01T00:00:23" />
+			<string key="concept:name" value="FORWARD_ANNOUNCEMENT_TO_ARBC_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_017_E024" />
+			<date key="time:timestamp" value="2024-01-01T00:00:24" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_017_E025" />
+			<date key="time:timestamp" value="2024-01-01T00:00:25" />
+			<string key="concept:name" value="ACK_TAKEOVER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_017_E026" />
+			<date key="time:timestamp" value="2024-01-01T00:00:26" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_017_E027" />
+			<date key="time:timestamp" value="2024-01-01T00:00:27" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_017_E028" />
+			<date key="time:timestamp" value="2024-01-01T00:00:28" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_017_E029" />
+			<date key="time:timestamp" value="2024-01-01T00:00:29" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_017_E030" />
+			<date key="time:timestamp" value="2024-01-01T00:00:30" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_017_E031" />
+			<date key="time:timestamp" value="2024-01-01T00:00:31" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_017_E032" />
+			<date key="time:timestamp" value="2024-01-01T00:00:32" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_017_E033" />
+			<date key="time:timestamp" value="2024-01-01T00:00:33" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_017_E034" />
+			<date key="time:timestamp" value="2024-01-01T00:00:34" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_017_E043" />
+			<date key="time:timestamp" value="2024-01-01T00:00:43" />
+			<string key="concept:name" value="EVALUATE_REAR_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_017_E044" />
+			<date key="time:timestamp" value="2024-01-01T00:00:44" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_017_E045" />
+			<date key="time:timestamp" value="2024-01-01T00:00:45" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_017_E046" />
+			<date key="time:timestamp" value="2024-01-01T00:00:46" />
+			<string key="concept:name" value="TX_TERMINATION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_017_E047" />
+			<date key="time:timestamp" value="2024-01-01T00:00:47" />
+			<string key="concept:name" value="RX_HRBC_TERMINATION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_017_E048" />
+			<date key="time:timestamp" value="2024-01-01T00:00:48" />
+			<string key="concept:name" value="TERMINATE_SESSION_HRBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="TC_NORM_006" />
+		<event>
+			<string key="EventID" value="TC_NORM_006_E001" />
+			<date key="time:timestamp" value="2024-01-01T00:00:01" />
+			<string key="concept:name" value="COORDINATE_MA_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_006_E002" />
+			<date key="time:timestamp" value="2024-01-01T00:00:02" />
+			<string key="concept:name" value="PROCESS_COORDINATION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_006_E003" />
+			<date key="time:timestamp" value="2024-01-01T00:00:03" />
+			<string key="concept:name" value="TX_TRANSITION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_006_E004" />
+			<date key="time:timestamp" value="2024-01-01T00:00:04" />
+			<string key="concept:name" value="RX_HRBC_TRANSITION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_006_E005" />
+			<date key="time:timestamp" value="2024-01-01T00:00:05" />
+			<string key="concept:name" value="PROCESS_MA_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_006_E006" />
+			<date key="time:timestamp" value="2024-01-01T00:00:06" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_006_E007" />
+			<date key="time:timestamp" value="2024-01-01T00:00:07" />
+			<string key="concept:name" value="REQ_SESSION_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_006_E008" />
+			<date key="time:timestamp" value="2024-01-01T00:00:08" />
+			<string key="concept:name" value="EVALUATE_SESSION_REQ_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_006_E009" />
+			<date key="time:timestamp" value="2024-01-01T00:00:09" />
+			<string key="concept:name" value="ACCEPT_SESSION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_006_E010" />
+			<date key="time:timestamp" value="2024-01-01T00:00:10" />
+			<string key="concept:name" value="SESSION_ESTABLISHED_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_006_E018" />
+			<date key="time:timestamp" value="2024-01-01T00:00:18" />
+			<string key="concept:name" value="EVALUATE_FRONT_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_006_E019" />
+			<date key="time:timestamp" value="2024-01-01T00:00:19" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_006_E020" />
+			<date key="time:timestamp" value="2024-01-01T00:00:20" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_006_E021" />
+			<date key="time:timestamp" value="2024-01-01T00:00:21" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_006_E022" />
+			<date key="time:timestamp" value="2024-01-01T00:00:22" />
+			<string key="concept:name" value="FORWARD_ANNOUNCEMENT_TO_ARBC_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_006_E023" />
+			<date key="time:timestamp" value="2024-01-01T00:00:23" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_006_E024" />
+			<date key="time:timestamp" value="2024-01-01T00:00:24" />
+			<string key="concept:name" value="ACK_TAKEOVER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_006_E025" />
+			<date key="time:timestamp" value="2024-01-01T00:00:25" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_006_E026" />
+			<date key="time:timestamp" value="2024-01-01T00:00:26" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_006_E027" />
+			<date key="time:timestamp" value="2024-01-01T00:00:27" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_006_E028" />
+			<date key="time:timestamp" value="2024-01-01T00:00:28" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_006_E029" />
+			<date key="time:timestamp" value="2024-01-01T00:00:29" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_006_E030" />
+			<date key="time:timestamp" value="2024-01-01T00:00:30" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_006_E031" />
+			<date key="time:timestamp" value="2024-01-01T00:00:31" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_006_E032" />
+			<date key="time:timestamp" value="2024-01-01T00:00:32" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_006_E033" />
+			<date key="time:timestamp" value="2024-01-01T00:00:33" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_006_E041" />
+			<date key="time:timestamp" value="2024-01-01T00:00:41" />
+			<string key="concept:name" value="EVALUATE_REAR_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_006_E042" />
+			<date key="time:timestamp" value="2024-01-01T00:00:42" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_006_E043" />
+			<date key="time:timestamp" value="2024-01-01T00:00:43" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_006_E044" />
+			<date key="time:timestamp" value="2024-01-01T00:00:44" />
+			<string key="concept:name" value="TX_TERMINATION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_006_E045" />
+			<date key="time:timestamp" value="2024-01-01T00:00:45" />
+			<string key="concept:name" value="RX_HRBC_TERMINATION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_006_E046" />
+			<date key="time:timestamp" value="2024-01-01T00:00:46" />
+			<string key="concept:name" value="TERMINATE_SESSION_HRBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="TC_NORM_015" />
+		<event>
+			<string key="EventID" value="TC_NORM_015_E001" />
+			<date key="time:timestamp" value="2024-01-01T00:00:01" />
+			<string key="concept:name" value="COORDINATE_MA_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_015_E002" />
+			<date key="time:timestamp" value="2024-01-01T00:00:02" />
+			<string key="concept:name" value="PROCESS_COORDINATION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_015_E003" />
+			<date key="time:timestamp" value="2024-01-01T00:00:03" />
+			<string key="concept:name" value="TX_TRANSITION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_015_E004" />
+			<date key="time:timestamp" value="2024-01-01T00:00:04" />
+			<string key="concept:name" value="RX_HRBC_TRANSITION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_015_E005" />
+			<date key="time:timestamp" value="2024-01-01T00:00:05" />
+			<string key="concept:name" value="PROCESS_MA_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_015_E006" />
+			<date key="time:timestamp" value="2024-01-01T00:00:06" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_015_E007" />
+			<date key="time:timestamp" value="2024-01-01T00:00:07" />
+			<string key="concept:name" value="REQ_SESSION_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_015_E008" />
+			<date key="time:timestamp" value="2024-01-01T00:00:08" />
+			<string key="concept:name" value="EVALUATE_SESSION_REQ_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_015_E009" />
+			<date key="time:timestamp" value="2024-01-01T00:00:09" />
+			<string key="concept:name" value="ACCEPT_SESSION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_015_E010" />
+			<date key="time:timestamp" value="2024-01-01T00:00:10" />
+			<string key="concept:name" value="SESSION_ESTABLISHED_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_015_E018" />
+			<date key="time:timestamp" value="2024-01-01T00:00:18" />
+			<string key="concept:name" value="EVALUATE_FRONT_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_015_E019" />
+			<date key="time:timestamp" value="2024-01-01T00:00:19" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_015_E020" />
+			<date key="time:timestamp" value="2024-01-01T00:00:20" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_015_E021" />
+			<date key="time:timestamp" value="2024-01-01T00:00:21" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_015_E022" />
+			<date key="time:timestamp" value="2024-01-01T00:00:22" />
+			<string key="concept:name" value="FORWARD_ANNOUNCEMENT_TO_ARBC_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_015_E023" />
+			<date key="time:timestamp" value="2024-01-01T00:00:23" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_015_E024" />
+			<date key="time:timestamp" value="2024-01-01T00:00:24" />
+			<string key="concept:name" value="ACK_TAKEOVER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_015_E025" />
+			<date key="time:timestamp" value="2024-01-01T00:00:25" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_015_E026" />
+			<date key="time:timestamp" value="2024-01-01T00:00:26" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_015_E027" />
+			<date key="time:timestamp" value="2024-01-01T00:00:27" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_015_E028" />
+			<date key="time:timestamp" value="2024-01-01T00:00:28" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_015_E029" />
+			<date key="time:timestamp" value="2024-01-01T00:00:29" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_015_E030" />
+			<date key="time:timestamp" value="2024-01-01T00:00:30" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_015_E031" />
+			<date key="time:timestamp" value="2024-01-01T00:00:31" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_015_E032" />
+			<date key="time:timestamp" value="2024-01-01T00:00:32" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_015_E033" />
+			<date key="time:timestamp" value="2024-01-01T00:00:33" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_015_E041" />
+			<date key="time:timestamp" value="2024-01-01T00:00:41" />
+			<string key="concept:name" value="EVALUATE_REAR_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_015_E042" />
+			<date key="time:timestamp" value="2024-01-01T00:00:42" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_015_E043" />
+			<date key="time:timestamp" value="2024-01-01T00:00:43" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_015_E044" />
+			<date key="time:timestamp" value="2024-01-01T00:00:44" />
+			<string key="concept:name" value="TX_TERMINATION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_015_E045" />
+			<date key="time:timestamp" value="2024-01-01T00:00:45" />
+			<string key="concept:name" value="RX_HRBC_TERMINATION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_015_E046" />
+			<date key="time:timestamp" value="2024-01-01T00:00:46" />
+			<string key="concept:name" value="TERMINATE_SESSION_HRBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="TC_NORM_014" />
+		<event>
+			<string key="EventID" value="TC_NORM_014_E001" />
+			<date key="time:timestamp" value="2024-01-01T00:00:01" />
+			<string key="concept:name" value="COORDINATE_MA_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_014_E002" />
+			<date key="time:timestamp" value="2024-01-01T00:00:02" />
+			<string key="concept:name" value="PROCESS_COORDINATION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_014_E003" />
+			<date key="time:timestamp" value="2024-01-01T00:00:03" />
+			<string key="concept:name" value="TX_TRANSITION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_014_E004" />
+			<date key="time:timestamp" value="2024-01-01T00:00:04" />
+			<string key="concept:name" value="RX_HRBC_TRANSITION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_014_E005" />
+			<date key="time:timestamp" value="2024-01-01T00:00:05" />
+			<string key="concept:name" value="PROCESS_MA_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_014_E006" />
+			<date key="time:timestamp" value="2024-01-01T00:00:06" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_014_E007" />
+			<date key="time:timestamp" value="2024-01-01T00:00:07" />
+			<string key="concept:name" value="REQ_SESSION_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_014_E008" />
+			<date key="time:timestamp" value="2024-01-01T00:00:08" />
+			<string key="concept:name" value="EVALUATE_SESSION_REQ_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_014_E009" />
+			<date key="time:timestamp" value="2024-01-01T00:00:09" />
+			<string key="concept:name" value="ACCEPT_SESSION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_014_E010" />
+			<date key="time:timestamp" value="2024-01-01T00:00:10" />
+			<string key="concept:name" value="SESSION_ESTABLISHED_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_014_E019" />
+			<date key="time:timestamp" value="2024-01-01T00:00:19" />
+			<string key="concept:name" value="EVALUATE_FRONT_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_014_E020" />
+			<date key="time:timestamp" value="2024-01-01T00:00:20" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_014_E021" />
+			<date key="time:timestamp" value="2024-01-01T00:00:21" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_014_E022" />
+			<date key="time:timestamp" value="2024-01-01T00:00:22" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_014_E023" />
+			<date key="time:timestamp" value="2024-01-01T00:00:23" />
+			<string key="concept:name" value="FORWARD_ANNOUNCEMENT_TO_ARBC_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_014_E024" />
+			<date key="time:timestamp" value="2024-01-01T00:00:24" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_014_E025" />
+			<date key="time:timestamp" value="2024-01-01T00:00:25" />
+			<string key="concept:name" value="ACK_TAKEOVER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_014_E026" />
+			<date key="time:timestamp" value="2024-01-01T00:00:26" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_014_E027" />
+			<date key="time:timestamp" value="2024-01-01T00:00:27" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_014_E028" />
+			<date key="time:timestamp" value="2024-01-01T00:00:28" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_014_E029" />
+			<date key="time:timestamp" value="2024-01-01T00:00:29" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_014_E030" />
+			<date key="time:timestamp" value="2024-01-01T00:00:30" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_014_E031" />
+			<date key="time:timestamp" value="2024-01-01T00:00:31" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_014_E032" />
+			<date key="time:timestamp" value="2024-01-01T00:00:32" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_014_E033" />
+			<date key="time:timestamp" value="2024-01-01T00:00:33" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_014_E034" />
+			<date key="time:timestamp" value="2024-01-01T00:00:34" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_014_E043" />
+			<date key="time:timestamp" value="2024-01-01T00:00:43" />
+			<string key="concept:name" value="EVALUATE_REAR_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_014_E044" />
+			<date key="time:timestamp" value="2024-01-01T00:00:44" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_014_E045" />
+			<date key="time:timestamp" value="2024-01-01T00:00:45" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_014_E046" />
+			<date key="time:timestamp" value="2024-01-01T00:00:46" />
+			<string key="concept:name" value="TX_TERMINATION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_014_E047" />
+			<date key="time:timestamp" value="2024-01-01T00:00:47" />
+			<string key="concept:name" value="RX_HRBC_TERMINATION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_014_E048" />
+			<date key="time:timestamp" value="2024-01-01T00:00:48" />
+			<string key="concept:name" value="TERMINATE_SESSION_HRBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="TC_NORM_007" />
+		<event>
+			<string key="EventID" value="TC_NORM_007_E001" />
+			<date key="time:timestamp" value="2024-01-01T00:00:01" />
+			<string key="concept:name" value="COORDINATE_MA_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_007_E002" />
+			<date key="time:timestamp" value="2024-01-01T00:00:02" />
+			<string key="concept:name" value="PROCESS_COORDINATION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_007_E003" />
+			<date key="time:timestamp" value="2024-01-01T00:00:03" />
+			<string key="concept:name" value="TX_TRANSITION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_007_E004" />
+			<date key="time:timestamp" value="2024-01-01T00:00:04" />
+			<string key="concept:name" value="RX_HRBC_TRANSITION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_007_E005" />
+			<date key="time:timestamp" value="2024-01-01T00:00:05" />
+			<string key="concept:name" value="PROCESS_MA_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_007_E006" />
+			<date key="time:timestamp" value="2024-01-01T00:00:06" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_007_E007" />
+			<date key="time:timestamp" value="2024-01-01T00:00:07" />
+			<string key="concept:name" value="REQ_SESSION_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_007_E008" />
+			<date key="time:timestamp" value="2024-01-01T00:00:08" />
+			<string key="concept:name" value="EVALUATE_SESSION_REQ_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_007_E009" />
+			<date key="time:timestamp" value="2024-01-01T00:00:09" />
+			<string key="concept:name" value="ACCEPT_SESSION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_007_E010" />
+			<date key="time:timestamp" value="2024-01-01T00:00:10" />
+			<string key="concept:name" value="SESSION_ESTABLISHED_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_007_E021" />
+			<date key="time:timestamp" value="2024-01-01T00:00:21" />
+			<string key="concept:name" value="EVALUATE_FRONT_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_007_E022" />
+			<date key="time:timestamp" value="2024-01-01T00:00:22" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_007_E023" />
+			<date key="time:timestamp" value="2024-01-01T00:00:23" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_007_E024" />
+			<date key="time:timestamp" value="2024-01-01T00:00:24" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_007_E025" />
+			<date key="time:timestamp" value="2024-01-01T00:00:25" />
+			<string key="concept:name" value="FORWARD_ANNOUNCEMENT_TO_ARBC_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_007_E026" />
+			<date key="time:timestamp" value="2024-01-01T00:00:26" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_007_E027" />
+			<date key="time:timestamp" value="2024-01-01T00:00:27" />
+			<string key="concept:name" value="ACK_TAKEOVER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_007_E028" />
+			<date key="time:timestamp" value="2024-01-01T00:00:28" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_007_E029" />
+			<date key="time:timestamp" value="2024-01-01T00:00:29" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_007_E030" />
+			<date key="time:timestamp" value="2024-01-01T00:00:30" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_007_E031" />
+			<date key="time:timestamp" value="2024-01-01T00:00:31" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_007_E032" />
+			<date key="time:timestamp" value="2024-01-01T00:00:32" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_007_E033" />
+			<date key="time:timestamp" value="2024-01-01T00:00:33" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_007_E034" />
+			<date key="time:timestamp" value="2024-01-01T00:00:34" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_007_E035" />
+			<date key="time:timestamp" value="2024-01-01T00:00:35" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_007_E036" />
+			<date key="time:timestamp" value="2024-01-01T00:00:36" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_007_E047" />
+			<date key="time:timestamp" value="2024-01-01T00:00:47" />
+			<string key="concept:name" value="EVALUATE_REAR_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_007_E048" />
+			<date key="time:timestamp" value="2024-01-01T00:00:48" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_007_E049" />
+			<date key="time:timestamp" value="2024-01-01T00:00:49" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_007_E050" />
+			<date key="time:timestamp" value="2024-01-01T00:00:50" />
+			<string key="concept:name" value="TX_TERMINATION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_007_E051" />
+			<date key="time:timestamp" value="2024-01-01T00:00:51" />
+			<string key="concept:name" value="RX_HRBC_TERMINATION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_007_E052" />
+			<date key="time:timestamp" value="2024-01-01T00:00:52" />
+			<string key="concept:name" value="TERMINATE_SESSION_HRBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="TC_NORM_013" />
+		<event>
+			<string key="EventID" value="TC_NORM_013_E001" />
+			<date key="time:timestamp" value="2024-01-01T00:00:01" />
+			<string key="concept:name" value="COORDINATE_MA_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_013_E002" />
+			<date key="time:timestamp" value="2024-01-01T00:00:02" />
+			<string key="concept:name" value="PROCESS_COORDINATION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_013_E003" />
+			<date key="time:timestamp" value="2024-01-01T00:00:03" />
+			<string key="concept:name" value="TX_TRANSITION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_013_E004" />
+			<date key="time:timestamp" value="2024-01-01T00:00:04" />
+			<string key="concept:name" value="RX_HRBC_TRANSITION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_013_E005" />
+			<date key="time:timestamp" value="2024-01-01T00:00:05" />
+			<string key="concept:name" value="PROCESS_MA_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_013_E006" />
+			<date key="time:timestamp" value="2024-01-01T00:00:06" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_013_E007" />
+			<date key="time:timestamp" value="2024-01-01T00:00:07" />
+			<string key="concept:name" value="REQ_SESSION_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_013_E008" />
+			<date key="time:timestamp" value="2024-01-01T00:00:08" />
+			<string key="concept:name" value="EVALUATE_SESSION_REQ_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_013_E009" />
+			<date key="time:timestamp" value="2024-01-01T00:00:09" />
+			<string key="concept:name" value="ACCEPT_SESSION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_013_E010" />
+			<date key="time:timestamp" value="2024-01-01T00:00:10" />
+			<string key="concept:name" value="SESSION_ESTABLISHED_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_013_E021" />
+			<date key="time:timestamp" value="2024-01-01T00:00:21" />
+			<string key="concept:name" value="EVALUATE_FRONT_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_013_E022" />
+			<date key="time:timestamp" value="2024-01-01T00:00:22" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_013_E023" />
+			<date key="time:timestamp" value="2024-01-01T00:00:23" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_013_E024" />
+			<date key="time:timestamp" value="2024-01-01T00:00:24" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_013_E025" />
+			<date key="time:timestamp" value="2024-01-01T00:00:25" />
+			<string key="concept:name" value="FORWARD_ANNOUNCEMENT_TO_ARBC_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_013_E026" />
+			<date key="time:timestamp" value="2024-01-01T00:00:26" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_013_E027" />
+			<date key="time:timestamp" value="2024-01-01T00:00:27" />
+			<string key="concept:name" value="ACK_TAKEOVER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_013_E028" />
+			<date key="time:timestamp" value="2024-01-01T00:00:28" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_013_E029" />
+			<date key="time:timestamp" value="2024-01-01T00:00:29" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_013_E030" />
+			<date key="time:timestamp" value="2024-01-01T00:00:30" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_013_E031" />
+			<date key="time:timestamp" value="2024-01-01T00:00:31" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_013_E032" />
+			<date key="time:timestamp" value="2024-01-01T00:00:32" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_013_E033" />
+			<date key="time:timestamp" value="2024-01-01T00:00:33" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_013_E034" />
+			<date key="time:timestamp" value="2024-01-01T00:00:34" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_013_E035" />
+			<date key="time:timestamp" value="2024-01-01T00:00:35" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_013_E036" />
+			<date key="time:timestamp" value="2024-01-01T00:00:36" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_013_E047" />
+			<date key="time:timestamp" value="2024-01-01T00:00:47" />
+			<string key="concept:name" value="EVALUATE_REAR_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_013_E048" />
+			<date key="time:timestamp" value="2024-01-01T00:00:48" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_013_E049" />
+			<date key="time:timestamp" value="2024-01-01T00:00:49" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_013_E050" />
+			<date key="time:timestamp" value="2024-01-01T00:00:50" />
+			<string key="concept:name" value="TX_TERMINATION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_013_E051" />
+			<date key="time:timestamp" value="2024-01-01T00:00:51" />
+			<string key="concept:name" value="RX_HRBC_TERMINATION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_013_E052" />
+			<date key="time:timestamp" value="2024-01-01T00:00:52" />
+			<string key="concept:name" value="TERMINATE_SESSION_HRBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="TC_NORM_012" />
+		<event>
+			<string key="EventID" value="TC_NORM_012_E001" />
+			<date key="time:timestamp" value="2024-01-01T00:00:01" />
+			<string key="concept:name" value="COORDINATE_MA_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_012_E002" />
+			<date key="time:timestamp" value="2024-01-01T00:00:02" />
+			<string key="concept:name" value="PROCESS_COORDINATION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_012_E003" />
+			<date key="time:timestamp" value="2024-01-01T00:00:03" />
+			<string key="concept:name" value="TX_TRANSITION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_012_E004" />
+			<date key="time:timestamp" value="2024-01-01T00:00:04" />
+			<string key="concept:name" value="RX_HRBC_TRANSITION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_012_E005" />
+			<date key="time:timestamp" value="2024-01-01T00:00:05" />
+			<string key="concept:name" value="PROCESS_MA_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_012_E006" />
+			<date key="time:timestamp" value="2024-01-01T00:00:06" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_012_E007" />
+			<date key="time:timestamp" value="2024-01-01T00:00:07" />
+			<string key="concept:name" value="REQ_SESSION_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_012_E008" />
+			<date key="time:timestamp" value="2024-01-01T00:00:08" />
+			<string key="concept:name" value="EVALUATE_SESSION_REQ_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_012_E009" />
+			<date key="time:timestamp" value="2024-01-01T00:00:09" />
+			<string key="concept:name" value="ACCEPT_SESSION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_012_E010" />
+			<date key="time:timestamp" value="2024-01-01T00:00:10" />
+			<string key="concept:name" value="SESSION_ESTABLISHED_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_012_E018" />
+			<date key="time:timestamp" value="2024-01-01T00:00:18" />
+			<string key="concept:name" value="EVALUATE_FRONT_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_012_E019" />
+			<date key="time:timestamp" value="2024-01-01T00:00:19" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_012_E020" />
+			<date key="time:timestamp" value="2024-01-01T00:00:20" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_012_E021" />
+			<date key="time:timestamp" value="2024-01-01T00:00:21" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_012_E022" />
+			<date key="time:timestamp" value="2024-01-01T00:00:22" />
+			<string key="concept:name" value="FORWARD_ANNOUNCEMENT_TO_ARBC_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_012_E023" />
+			<date key="time:timestamp" value="2024-01-01T00:00:23" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_012_E024" />
+			<date key="time:timestamp" value="2024-01-01T00:00:24" />
+			<string key="concept:name" value="ACK_TAKEOVER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_012_E025" />
+			<date key="time:timestamp" value="2024-01-01T00:00:25" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_012_E026" />
+			<date key="time:timestamp" value="2024-01-01T00:00:26" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_012_E027" />
+			<date key="time:timestamp" value="2024-01-01T00:00:27" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_012_E028" />
+			<date key="time:timestamp" value="2024-01-01T00:00:28" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_012_E029" />
+			<date key="time:timestamp" value="2024-01-01T00:00:29" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_012_E030" />
+			<date key="time:timestamp" value="2024-01-01T00:00:30" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_012_E031" />
+			<date key="time:timestamp" value="2024-01-01T00:00:31" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_012_E032" />
+			<date key="time:timestamp" value="2024-01-01T00:00:32" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_012_E033" />
+			<date key="time:timestamp" value="2024-01-01T00:00:33" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_012_E041" />
+			<date key="time:timestamp" value="2024-01-01T00:00:41" />
+			<string key="concept:name" value="EVALUATE_REAR_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_012_E042" />
+			<date key="time:timestamp" value="2024-01-01T00:00:42" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_012_E043" />
+			<date key="time:timestamp" value="2024-01-01T00:00:43" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_012_E044" />
+			<date key="time:timestamp" value="2024-01-01T00:00:44" />
+			<string key="concept:name" value="TX_TERMINATION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_012_E045" />
+			<date key="time:timestamp" value="2024-01-01T00:00:45" />
+			<string key="concept:name" value="RX_HRBC_TERMINATION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_012_E046" />
+			<date key="time:timestamp" value="2024-01-01T00:00:46" />
+			<string key="concept:name" value="TERMINATE_SESSION_HRBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="TC_NORM_008" />
+		<event>
+			<string key="EventID" value="TC_NORM_008_E001" />
+			<date key="time:timestamp" value="2024-01-01T00:00:01" />
+			<string key="concept:name" value="COORDINATE_MA_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_008_E002" />
+			<date key="time:timestamp" value="2024-01-01T00:00:02" />
+			<string key="concept:name" value="PROCESS_COORDINATION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_008_E003" />
+			<date key="time:timestamp" value="2024-01-01T00:00:03" />
+			<string key="concept:name" value="TX_TRANSITION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_008_E004" />
+			<date key="time:timestamp" value="2024-01-01T00:00:04" />
+			<string key="concept:name" value="RX_HRBC_TRANSITION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_008_E005" />
+			<date key="time:timestamp" value="2024-01-01T00:00:05" />
+			<string key="concept:name" value="PROCESS_MA_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_008_E006" />
+			<date key="time:timestamp" value="2024-01-01T00:00:06" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_008_E007" />
+			<date key="time:timestamp" value="2024-01-01T00:00:07" />
+			<string key="concept:name" value="REQ_SESSION_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_008_E008" />
+			<date key="time:timestamp" value="2024-01-01T00:00:08" />
+			<string key="concept:name" value="EVALUATE_SESSION_REQ_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_008_E009" />
+			<date key="time:timestamp" value="2024-01-01T00:00:09" />
+			<string key="concept:name" value="ACCEPT_SESSION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_008_E010" />
+			<date key="time:timestamp" value="2024-01-01T00:00:10" />
+			<string key="concept:name" value="SESSION_ESTABLISHED_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_008_E019" />
+			<date key="time:timestamp" value="2024-01-01T00:00:19" />
+			<string key="concept:name" value="EVALUATE_FRONT_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_008_E020" />
+			<date key="time:timestamp" value="2024-01-01T00:00:20" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_008_E021" />
+			<date key="time:timestamp" value="2024-01-01T00:00:21" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_008_E022" />
+			<date key="time:timestamp" value="2024-01-01T00:00:22" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_008_E023" />
+			<date key="time:timestamp" value="2024-01-01T00:00:23" />
+			<string key="concept:name" value="FORWARD_ANNOUNCEMENT_TO_ARBC_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_008_E024" />
+			<date key="time:timestamp" value="2024-01-01T00:00:24" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_008_E025" />
+			<date key="time:timestamp" value="2024-01-01T00:00:25" />
+			<string key="concept:name" value="ACK_TAKEOVER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_008_E026" />
+			<date key="time:timestamp" value="2024-01-01T00:00:26" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_008_E027" />
+			<date key="time:timestamp" value="2024-01-01T00:00:27" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_008_E028" />
+			<date key="time:timestamp" value="2024-01-01T00:00:28" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_008_E029" />
+			<date key="time:timestamp" value="2024-01-01T00:00:29" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_008_E030" />
+			<date key="time:timestamp" value="2024-01-01T00:00:30" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_008_E031" />
+			<date key="time:timestamp" value="2024-01-01T00:00:31" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_008_E032" />
+			<date key="time:timestamp" value="2024-01-01T00:00:32" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_008_E033" />
+			<date key="time:timestamp" value="2024-01-01T00:00:33" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_008_E034" />
+			<date key="time:timestamp" value="2024-01-01T00:00:34" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_008_E043" />
+			<date key="time:timestamp" value="2024-01-01T00:00:43" />
+			<string key="concept:name" value="EVALUATE_REAR_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_008_E044" />
+			<date key="time:timestamp" value="2024-01-01T00:00:44" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_008_E045" />
+			<date key="time:timestamp" value="2024-01-01T00:00:45" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_008_E046" />
+			<date key="time:timestamp" value="2024-01-01T00:00:46" />
+			<string key="concept:name" value="TX_TERMINATION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_008_E047" />
+			<date key="time:timestamp" value="2024-01-01T00:00:47" />
+			<string key="concept:name" value="RX_HRBC_TERMINATION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_008_E048" />
+			<date key="time:timestamp" value="2024-01-01T00:00:48" />
+			<string key="concept:name" value="TERMINATE_SESSION_HRBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="TC_NORM_011" />
+		<event>
+			<string key="EventID" value="TC_NORM_011_E001" />
+			<date key="time:timestamp" value="2024-01-01T00:00:01" />
+			<string key="concept:name" value="COORDINATE_MA_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_011_E002" />
+			<date key="time:timestamp" value="2024-01-01T00:00:02" />
+			<string key="concept:name" value="PROCESS_COORDINATION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_011_E003" />
+			<date key="time:timestamp" value="2024-01-01T00:00:03" />
+			<string key="concept:name" value="TX_TRANSITION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_011_E004" />
+			<date key="time:timestamp" value="2024-01-01T00:00:04" />
+			<string key="concept:name" value="RX_HRBC_TRANSITION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_011_E005" />
+			<date key="time:timestamp" value="2024-01-01T00:00:05" />
+			<string key="concept:name" value="PROCESS_MA_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_011_E006" />
+			<date key="time:timestamp" value="2024-01-01T00:00:06" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_011_E007" />
+			<date key="time:timestamp" value="2024-01-01T00:00:07" />
+			<string key="concept:name" value="REQ_SESSION_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_011_E008" />
+			<date key="time:timestamp" value="2024-01-01T00:00:08" />
+			<string key="concept:name" value="EVALUATE_SESSION_REQ_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_011_E009" />
+			<date key="time:timestamp" value="2024-01-01T00:00:09" />
+			<string key="concept:name" value="ACCEPT_SESSION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_011_E010" />
+			<date key="time:timestamp" value="2024-01-01T00:00:10" />
+			<string key="concept:name" value="SESSION_ESTABLISHED_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_011_E019" />
+			<date key="time:timestamp" value="2024-01-01T00:00:19" />
+			<string key="concept:name" value="EVALUATE_FRONT_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_011_E020" />
+			<date key="time:timestamp" value="2024-01-01T00:00:20" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_011_E021" />
+			<date key="time:timestamp" value="2024-01-01T00:00:21" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_011_E022" />
+			<date key="time:timestamp" value="2024-01-01T00:00:22" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_011_E023" />
+			<date key="time:timestamp" value="2024-01-01T00:00:23" />
+			<string key="concept:name" value="FORWARD_ANNOUNCEMENT_TO_ARBC_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_011_E024" />
+			<date key="time:timestamp" value="2024-01-01T00:00:24" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_011_E025" />
+			<date key="time:timestamp" value="2024-01-01T00:00:25" />
+			<string key="concept:name" value="ACK_TAKEOVER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_011_E026" />
+			<date key="time:timestamp" value="2024-01-01T00:00:26" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_011_E027" />
+			<date key="time:timestamp" value="2024-01-01T00:00:27" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_011_E028" />
+			<date key="time:timestamp" value="2024-01-01T00:00:28" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_011_E029" />
+			<date key="time:timestamp" value="2024-01-01T00:00:29" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_011_E030" />
+			<date key="time:timestamp" value="2024-01-01T00:00:30" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_011_E031" />
+			<date key="time:timestamp" value="2024-01-01T00:00:31" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_011_E032" />
+			<date key="time:timestamp" value="2024-01-01T00:00:32" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_011_E033" />
+			<date key="time:timestamp" value="2024-01-01T00:00:33" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_011_E034" />
+			<date key="time:timestamp" value="2024-01-01T00:00:34" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_011_E043" />
+			<date key="time:timestamp" value="2024-01-01T00:00:43" />
+			<string key="concept:name" value="EVALUATE_REAR_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_011_E044" />
+			<date key="time:timestamp" value="2024-01-01T00:00:44" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_011_E045" />
+			<date key="time:timestamp" value="2024-01-01T00:00:45" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_011_E046" />
+			<date key="time:timestamp" value="2024-01-01T00:00:46" />
+			<string key="concept:name" value="TX_TERMINATION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_011_E047" />
+			<date key="time:timestamp" value="2024-01-01T00:00:47" />
+			<string key="concept:name" value="RX_HRBC_TERMINATION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_011_E048" />
+			<date key="time:timestamp" value="2024-01-01T00:00:48" />
+			<string key="concept:name" value="TERMINATE_SESSION_HRBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="TC_NORM_010" />
+		<event>
+			<string key="EventID" value="TC_NORM_010_E001" />
+			<date key="time:timestamp" value="2024-01-01T00:00:01" />
+			<string key="concept:name" value="COORDINATE_MA_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_010_E002" />
+			<date key="time:timestamp" value="2024-01-01T00:00:02" />
+			<string key="concept:name" value="PROCESS_COORDINATION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_010_E003" />
+			<date key="time:timestamp" value="2024-01-01T00:00:03" />
+			<string key="concept:name" value="TX_TRANSITION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_010_E004" />
+			<date key="time:timestamp" value="2024-01-01T00:00:04" />
+			<string key="concept:name" value="RX_HRBC_TRANSITION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_010_E005" />
+			<date key="time:timestamp" value="2024-01-01T00:00:05" />
+			<string key="concept:name" value="PROCESS_MA_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_010_E006" />
+			<date key="time:timestamp" value="2024-01-01T00:00:06" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_010_E007" />
+			<date key="time:timestamp" value="2024-01-01T00:00:07" />
+			<string key="concept:name" value="REQ_SESSION_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_010_E008" />
+			<date key="time:timestamp" value="2024-01-01T00:00:08" />
+			<string key="concept:name" value="EVALUATE_SESSION_REQ_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_010_E009" />
+			<date key="time:timestamp" value="2024-01-01T00:00:09" />
+			<string key="concept:name" value="ACCEPT_SESSION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_010_E010" />
+			<date key="time:timestamp" value="2024-01-01T00:00:10" />
+			<string key="concept:name" value="SESSION_ESTABLISHED_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_010_E021" />
+			<date key="time:timestamp" value="2024-01-01T00:00:21" />
+			<string key="concept:name" value="EVALUATE_FRONT_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_010_E022" />
+			<date key="time:timestamp" value="2024-01-01T00:00:22" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_010_E023" />
+			<date key="time:timestamp" value="2024-01-01T00:00:23" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_010_E024" />
+			<date key="time:timestamp" value="2024-01-01T00:00:24" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_010_E025" />
+			<date key="time:timestamp" value="2024-01-01T00:00:25" />
+			<string key="concept:name" value="FORWARD_ANNOUNCEMENT_TO_ARBC_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_010_E026" />
+			<date key="time:timestamp" value="2024-01-01T00:00:26" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_010_E027" />
+			<date key="time:timestamp" value="2024-01-01T00:00:27" />
+			<string key="concept:name" value="ACK_TAKEOVER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_010_E028" />
+			<date key="time:timestamp" value="2024-01-01T00:00:28" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_010_E029" />
+			<date key="time:timestamp" value="2024-01-01T00:00:29" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_010_E030" />
+			<date key="time:timestamp" value="2024-01-01T00:00:30" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_010_E031" />
+			<date key="time:timestamp" value="2024-01-01T00:00:31" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_010_E032" />
+			<date key="time:timestamp" value="2024-01-01T00:00:32" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_010_E033" />
+			<date key="time:timestamp" value="2024-01-01T00:00:33" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_010_E034" />
+			<date key="time:timestamp" value="2024-01-01T00:00:34" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_010_E035" />
+			<date key="time:timestamp" value="2024-01-01T00:00:35" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_010_E036" />
+			<date key="time:timestamp" value="2024-01-01T00:00:36" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_010_E047" />
+			<date key="time:timestamp" value="2024-01-01T00:00:47" />
+			<string key="concept:name" value="EVALUATE_REAR_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_010_E048" />
+			<date key="time:timestamp" value="2024-01-01T00:00:48" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_010_E049" />
+			<date key="time:timestamp" value="2024-01-01T00:00:49" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_010_E050" />
+			<date key="time:timestamp" value="2024-01-01T00:00:50" />
+			<string key="concept:name" value="TX_TERMINATION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_010_E051" />
+			<date key="time:timestamp" value="2024-01-01T00:00:51" />
+			<string key="concept:name" value="RX_HRBC_TERMINATION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_010_E052" />
+			<date key="time:timestamp" value="2024-01-01T00:00:52" />
+			<string key="concept:name" value="TERMINATE_SESSION_HRBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="TC_NORM_016" />
+		<event>
+			<string key="EventID" value="TC_NORM_016_E001" />
+			<date key="time:timestamp" value="2024-01-01T00:00:01" />
+			<string key="concept:name" value="COORDINATE_MA_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_016_E002" />
+			<date key="time:timestamp" value="2024-01-01T00:00:02" />
+			<string key="concept:name" value="PROCESS_COORDINATION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_016_E003" />
+			<date key="time:timestamp" value="2024-01-01T00:00:03" />
+			<string key="concept:name" value="TX_TRANSITION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_016_E004" />
+			<date key="time:timestamp" value="2024-01-01T00:00:04" />
+			<string key="concept:name" value="RX_HRBC_TRANSITION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_016_E005" />
+			<date key="time:timestamp" value="2024-01-01T00:00:05" />
+			<string key="concept:name" value="PROCESS_MA_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_016_E006" />
+			<date key="time:timestamp" value="2024-01-01T00:00:06" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_016_E007" />
+			<date key="time:timestamp" value="2024-01-01T00:00:07" />
+			<string key="concept:name" value="REQ_SESSION_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_016_E008" />
+			<date key="time:timestamp" value="2024-01-01T00:00:08" />
+			<string key="concept:name" value="EVALUATE_SESSION_REQ_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_016_E009" />
+			<date key="time:timestamp" value="2024-01-01T00:00:09" />
+			<string key="concept:name" value="ACCEPT_SESSION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_016_E010" />
+			<date key="time:timestamp" value="2024-01-01T00:00:10" />
+			<string key="concept:name" value="SESSION_ESTABLISHED_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_016_E021" />
+			<date key="time:timestamp" value="2024-01-01T00:00:21" />
+			<string key="concept:name" value="EVALUATE_FRONT_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_016_E022" />
+			<date key="time:timestamp" value="2024-01-01T00:00:22" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_016_E023" />
+			<date key="time:timestamp" value="2024-01-01T00:00:23" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_016_E024" />
+			<date key="time:timestamp" value="2024-01-01T00:00:24" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_016_E025" />
+			<date key="time:timestamp" value="2024-01-01T00:00:25" />
+			<string key="concept:name" value="FORWARD_ANNOUNCEMENT_TO_ARBC_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_016_E026" />
+			<date key="time:timestamp" value="2024-01-01T00:00:26" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_016_E027" />
+			<date key="time:timestamp" value="2024-01-01T00:00:27" />
+			<string key="concept:name" value="ACK_TAKEOVER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_016_E028" />
+			<date key="time:timestamp" value="2024-01-01T00:00:28" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_016_E029" />
+			<date key="time:timestamp" value="2024-01-01T00:00:29" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_016_E030" />
+			<date key="time:timestamp" value="2024-01-01T00:00:30" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_016_E031" />
+			<date key="time:timestamp" value="2024-01-01T00:00:31" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_016_E032" />
+			<date key="time:timestamp" value="2024-01-01T00:00:32" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_016_E033" />
+			<date key="time:timestamp" value="2024-01-01T00:00:33" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_016_E034" />
+			<date key="time:timestamp" value="2024-01-01T00:00:34" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_016_E035" />
+			<date key="time:timestamp" value="2024-01-01T00:00:35" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_016_E036" />
+			<date key="time:timestamp" value="2024-01-01T00:00:36" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_016_E047" />
+			<date key="time:timestamp" value="2024-01-01T00:00:47" />
+			<string key="concept:name" value="EVALUATE_REAR_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_016_E048" />
+			<date key="time:timestamp" value="2024-01-01T00:00:48" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_016_E049" />
+			<date key="time:timestamp" value="2024-01-01T00:00:49" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_016_E050" />
+			<date key="time:timestamp" value="2024-01-01T00:00:50" />
+			<string key="concept:name" value="TX_TERMINATION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_016_E051" />
+			<date key="time:timestamp" value="2024-01-01T00:00:51" />
+			<string key="concept:name" value="RX_HRBC_TERMINATION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_016_E052" />
+			<date key="time:timestamp" value="2024-01-01T00:00:52" />
+			<string key="concept:name" value="TERMINATE_SESSION_HRBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="TC_ANOM_002" />
+		<event>
+			<string key="EventID" value="TC_ANOM_002_E001" />
+			<date key="time:timestamp" value="2024-01-01T00:00:01" />
+			<string key="concept:name" value="COORDINATE_MA_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_ANOM_002_E002" />
+			<date key="time:timestamp" value="2024-01-01T00:00:02" />
+			<string key="concept:name" value="PROCESS_COORDINATION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_ANOM_002_E003" />
+			<date key="time:timestamp" value="2024-01-01T00:00:03" />
+			<string key="concept:name" value="TX_TRANSITION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_ANOM_002_E004" />
+			<date key="time:timestamp" value="2024-01-01T00:00:04" />
+			<string key="concept:name" value="RX_HRBC_TRANSITION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_ANOM_002_E005" />
+			<date key="time:timestamp" value="2024-01-01T00:00:05" />
+			<string key="concept:name" value="PROCESS_MA_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_ANOM_002_E006" />
+			<date key="time:timestamp" value="2024-01-01T00:00:06" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_ANOM_002_E007" />
+			<date key="time:timestamp" value="2024-01-01T00:00:07" />
+			<string key="concept:name" value="REQ_SESSION_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_ANOM_002_E008" />
+			<date key="time:timestamp" value="2024-01-01T00:00:08" />
+			<string key="concept:name" value="EVALUATE_SESSION_REQ_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_ANOM_002_E009" />
+			<date key="time:timestamp" value="2024-01-01T00:00:09" />
+			<string key="concept:name" value="REJECT_SESSION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_ANOM_002_E010" />
+			<date key="time:timestamp" value="2024-01-01T00:00:10" />
+			<string key="concept:name" value="SESSION_REJECTED_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_ANOM_002_E011" />
+			<date key="time:timestamp" value="2024-01-01T00:00:11" />
+			<string key="concept:name" value="EMERGENCY_BRAKE_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_ANOM_002_E012" />
+			<date key="time:timestamp" value="2024-01-01T00:00:12" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="TC_NORM_009" />
+		<event>
+			<string key="EventID" value="TC_NORM_009_E001" />
+			<date key="time:timestamp" value="2024-01-01T00:00:01" />
+			<string key="concept:name" value="COORDINATE_MA_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_009_E002" />
+			<date key="time:timestamp" value="2024-01-01T00:00:02" />
+			<string key="concept:name" value="PROCESS_COORDINATION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_009_E003" />
+			<date key="time:timestamp" value="2024-01-01T00:00:03" />
+			<string key="concept:name" value="TX_TRANSITION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_009_E004" />
+			<date key="time:timestamp" value="2024-01-01T00:00:04" />
+			<string key="concept:name" value="RX_HRBC_TRANSITION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_009_E005" />
+			<date key="time:timestamp" value="2024-01-01T00:00:05" />
+			<string key="concept:name" value="PROCESS_MA_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_009_E006" />
+			<date key="time:timestamp" value="2024-01-01T00:00:06" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_009_E007" />
+			<date key="time:timestamp" value="2024-01-01T00:00:07" />
+			<string key="concept:name" value="REQ_SESSION_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_009_E008" />
+			<date key="time:timestamp" value="2024-01-01T00:00:08" />
+			<string key="concept:name" value="EVALUATE_SESSION_REQ_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_009_E009" />
+			<date key="time:timestamp" value="2024-01-01T00:00:09" />
+			<string key="concept:name" value="ACCEPT_SESSION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_009_E010" />
+			<date key="time:timestamp" value="2024-01-01T00:00:10" />
+			<string key="concept:name" value="SESSION_ESTABLISHED_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_009_E018" />
+			<date key="time:timestamp" value="2024-01-01T00:00:18" />
+			<string key="concept:name" value="EVALUATE_FRONT_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_009_E019" />
+			<date key="time:timestamp" value="2024-01-01T00:00:19" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_009_E020" />
+			<date key="time:timestamp" value="2024-01-01T00:00:20" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_009_E021" />
+			<date key="time:timestamp" value="2024-01-01T00:00:21" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_009_E022" />
+			<date key="time:timestamp" value="2024-01-01T00:00:22" />
+			<string key="concept:name" value="FORWARD_ANNOUNCEMENT_TO_ARBC_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_009_E023" />
+			<date key="time:timestamp" value="2024-01-01T00:00:23" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_009_E024" />
+			<date key="time:timestamp" value="2024-01-01T00:00:24" />
+			<string key="concept:name" value="ACK_TAKEOVER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_009_E025" />
+			<date key="time:timestamp" value="2024-01-01T00:00:25" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_009_E026" />
+			<date key="time:timestamp" value="2024-01-01T00:00:26" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_009_E027" />
+			<date key="time:timestamp" value="2024-01-01T00:00:27" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_009_E028" />
+			<date key="time:timestamp" value="2024-01-01T00:00:28" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_009_E029" />
+			<date key="time:timestamp" value="2024-01-01T00:00:29" />
+			<string key="concept:name" value="RX_POS_REPORT_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_009_E030" />
+			<date key="time:timestamp" value="2024-01-01T00:00:30" />
+			<string key="concept:name" value="TX_GRANT_SUPERVISION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_009_E031" />
+			<date key="time:timestamp" value="2024-01-01T00:00:31" />
+			<string key="concept:name" value="RX_ARBC_GRANT_SUPERVISION_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_009_E032" />
+			<date key="time:timestamp" value="2024-01-01T00:00:32" />
+			<string key="concept:name" value="APPLY_SUPERVISION_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_009_E033" />
+			<date key="time:timestamp" value="2024-01-01T00:00:33" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_009_E041" />
+			<date key="time:timestamp" value="2024-01-01T00:00:41" />
+			<string key="concept:name" value="EVALUATE_REAR_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_009_E042" />
+			<date key="time:timestamp" value="2024-01-01T00:00:42" />
+			<string key="concept:name" value="TX_POS_REPORT_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_009_E043" />
+			<date key="time:timestamp" value="2024-01-01T00:00:43" />
+			<string key="concept:name" value="RX_POS_REPORT_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_009_E044" />
+			<date key="time:timestamp" value="2024-01-01T00:00:44" />
+			<string key="concept:name" value="TX_TERMINATION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_009_E045" />
+			<date key="time:timestamp" value="2024-01-01T00:00:45" />
+			<string key="concept:name" value="RX_HRBC_TERMINATION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_NORM_009_E046" />
+			<date key="time:timestamp" value="2024-01-01T00:00:46" />
+			<string key="concept:name" value="TERMINATE_SESSION_HRBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="TC_ANOM_003" />
+		<event>
+			<string key="EventID" value="TC_ANOM_003_E001" />
+			<date key="time:timestamp" value="2024-01-01T00:00:01" />
+			<string key="concept:name" value="COORDINATE_MA_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_ANOM_003_E002" />
+			<date key="time:timestamp" value="2024-01-01T00:00:02" />
+			<string key="concept:name" value="PROCESS_COORDINATION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_ANOM_003_E003" />
+			<date key="time:timestamp" value="2024-01-01T00:00:03" />
+			<string key="concept:name" value="TX_TRANSITION_ORDER_HRBC" />
+			<string key="Component" value="HRBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_ANOM_003_E004" />
+			<date key="time:timestamp" value="2024-01-01T00:00:04" />
+			<string key="concept:name" value="RX_HRBC_TRANSITION_ORDER_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_ANOM_003_E005" />
+			<date key="time:timestamp" value="2024-01-01T00:00:05" />
+			<string key="concept:name" value="PROCESS_MA_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_ANOM_003_E006" />
+			<date key="time:timestamp" value="2024-01-01T00:00:06" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_ANOM_003_E007" />
+			<date key="time:timestamp" value="2024-01-01T00:00:07" />
+			<string key="concept:name" value="REQ_SESSION_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_ANOM_003_E008" />
+			<date key="time:timestamp" value="2024-01-01T00:00:08" />
+			<string key="concept:name" value="EVALUATE_SESSION_REQ_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_ANOM_003_E009" />
+			<date key="time:timestamp" value="2024-01-01T00:00:09" />
+			<string key="concept:name" value="REJECT_SESSION_ARBC" />
+			<string key="Component" value="ARBC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_ANOM_003_E010" />
+			<date key="time:timestamp" value="2024-01-01T00:00:10" />
+			<string key="concept:name" value="SESSION_REJECTED_ARBC_RTM" />
+			<string key="Component" value="RTM" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_ANOM_003_E011" />
+			<date key="time:timestamp" value="2024-01-01T00:00:11" />
+			<string key="concept:name" value="EMERGENCY_BRAKE_EVC" />
+			<string key="Component" value="EVC" />
+		</event>
+		<event>
+			<string key="EventID" value="TC_ANOM_003_E012" />
+			<date key="time:timestamp" value="2024-01-01T00:00:12" />
+			<string key="concept:name" value="DISPLAY_UPDATE_DMI" />
+			<string key="Component" value="DMI" />
+		</event>
+	</trace>
+</log>
