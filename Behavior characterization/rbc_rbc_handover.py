@@ -3,21 +3,17 @@ class SimulationLogger:
         self.trace_id = trace_id
         self.config = config
         self.events = []
-        # Initialize logical clock at 0 instead of a physical datetime
         self.logical_clock = 0
 
     def tick(self, steps=1):
-        """Advances the logical clock for simulation loops without physical time."""
         self.logical_clock += steps
 
     def record(self, component, action, details=""):
-        # Increment logical clock by 1 for every explicit event
         self.logical_clock += 1
         
         event = {
             "CaseID": self.trace_id,
             "EventID": f"{self.trace_id}_E{self.logical_clock:03d}",
-            # Timestamp is now purely logical (e.g., 1, 2, 3...)
             "Timestamp": self.logical_clock, 
             "Activity": action,
             "Component": component
@@ -119,7 +115,6 @@ class RTM:
         self.logger.record("RTM", "TERMINATE_SESSION_HRBC")
         self.session_hrbc = False
         
-        # Degraded Mode Logic Trigger (Break-Before-Make)
         if not self.config["has_dual_radio"] and not self.evc.emergency_brake_active:
             self.establish_arbc_session()
             if self.session_arbc:
@@ -142,7 +137,6 @@ class HRBC:
     def process_report(self, position, rtm):
         self.logger.record("HRBC", "RX_POS_REPORT")
         
-        # In degraded mode, HRBC must forward the initial announcement to ARBC
         if not self.responsibility_transferred:
             self.logger.record("HRBC", "FORWARD_ANNOUNCEMENT_TO_ARBC")
             self.arbc.process_report(position, rtm)
@@ -185,7 +179,6 @@ class ARBC:
             self.front_end_reported = True
             self.hrbc.acknowledge_takeover()
             
-        # Only grant supervision if train has actually connected to this RBC
         if rtm.session_arbc:
             self.grant_supervision(rtm)
 
@@ -195,13 +188,11 @@ class ARBC:
 
 
 def run_process_instance(trace_id, config):
-    """Executes a single workflow instance and returns the final state."""
     logger = SimulationLogger(trace_id, config)
     border_pos = 5000
     current_pos = 4800
     speed = config.get("speed", 25)
 
-    # Initialize & Link
     dmi = DMI(logger)
     rtm = RTM(logger, config)
     evc = EVC(logger, config, dmi, rtm)
@@ -211,17 +202,13 @@ def run_process_instance(trace_id, config):
     arbc.link_hrbc(hrbc)
     rtm.link_components(evc, hrbc, arbc)
 
-    # Setup Phase
     border_ma = hrbc.coordinate_border_ma(trace_id)
     hrbc.transmit_transition_order(rtm, border_ma)
     
-    # Make-Before-Break Dual Radio establishment
     if config["has_dual_radio"]:
         rtm.establish_arbc_session()
 
-    # Physics Loop
     while rtm.session_hrbc or (rtm.session_arbc and not evc.supervision_granted and not evc.emergency_brake_active):
-        # Advance the simulation clock by 1 logical step per loop iteration
         logger.tick(steps=1) 
         current_pos += speed
         

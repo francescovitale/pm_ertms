@@ -25,17 +25,12 @@ from sklearn.metrics import balanced_accuracy_score, v_measure_score
 from sklearn.metrics import pairwise_distances_argmin
 
 def load_diagnoses(base_input_dir="Input"):
-    """
-    Loads diagnoses CSVs into a nested dictionary with the structure:
-    diagnoses[pd_algorithm][window_length][type] = pandas DataFrame
-    """
     diagnoses = {}
 
     if not os.path.exists(base_input_dir):
         print(f"Directory '{base_input_dir}' does not exist.")
         return diagnoses
 
-    # 1. Iterate through pd_algorithms (e.g., im, ilp, alpha)
     for algo in os.listdir(base_input_dir):
         algo_dir = os.path.join(base_input_dir, algo)
         
@@ -44,7 +39,6 @@ def load_diagnoses(base_input_dir="Input"):
             
         diagnoses[algo] = {}
         
-        # 2. Iterate through window_lengths (e.g., 5, 10, 15)
         for window in os.listdir(algo_dir):
             window_dir = os.path.join(algo_dir, window)
             
@@ -53,7 +47,6 @@ def load_diagnoses(base_input_dir="Input"):
                 
             diagnoses[algo][window] = {}
             
-            # 3. Iterate through types (Training, Test)
             for log_type in os.listdir(window_dir):
                 type_dir = os.path.join(window_dir, log_type)
                 
@@ -62,7 +55,6 @@ def load_diagnoses(base_input_dir="Input"):
                     
                 csv_path = os.path.join(type_dir, "diagnoses.csv")
                 
-                # 4. If the CSV exists, load it into the dictionary
                 if os.path.exists(csv_path):
                     try:
                         diagnoses[algo][window][log_type] = pd.read_csv(csv_path)
@@ -86,13 +78,11 @@ def build_clusters(diagnoses):
             if df_train.empty:
                 continue
                 
-            # 1. Separate the features (X) from the answer key (y)
             X_train = df_train.drop(columns=["Component"])
-            y_train_true = df_train["Component"] # Keep this safe for later validation!
+            y_train_true = df_train["Component"]
             
             clusters[pd_algo][window] = {}
 
-            # 2. Train Models blindly on X_train
             for n in cluster_counts:
                 models = {
                     "K-Means": KMeans(n_clusters=n, n_init=10, random_state=42),
@@ -107,7 +97,6 @@ def build_clusters(diagnoses):
                         
                     labels = model.fit_predict(X_train)
                     
-                    # Store both the unsupervised results and the answer key
                     clusters[pd_algo][window][algo_name][n] = {
                         "model": model,
                         "labels": labels,
@@ -115,7 +104,6 @@ def build_clusters(diagnoses):
                         "y_train_true": y_train_true 
                     }
 
-            # 3. Train HDBSCAN
             hdbscan_model = HDBSCAN(min_cluster_size=5)
             hdbscan_labels = hdbscan_model.fit_predict(X_train)
             
@@ -130,10 +118,6 @@ def build_clusters(diagnoses):
     return clusters
 	
 def classify_test_traces(diagnoses, clusters):
-    """
-    Assigns test traces to clusters, predicts their fault component dynamically 
-    from the activity names, and calculates accuracy and V-measure.
-    """
     accuracy_results = {}
     v_measure_results = {}
 
@@ -149,7 +133,6 @@ def classify_test_traces(diagnoses, clusters):
             if df_test.empty:
                 continue
             
-            # Separate features from the hidden test ground truth
             X_test = df_test.drop(columns=["Component"])
             y_test_true = df_test["Component"]
 
@@ -165,40 +148,29 @@ def classify_test_traces(diagnoses, clusters):
                     train_labels = cluster_data["labels"]
                     X_train = cluster_data["X_train"]
 
-                    # ==========================================
-                    # STEP 1: Dynamic Anomaly Explanation 
-                    # ==========================================
                     cluster_to_component = {}
                     unique_clusters = set(train_labels)
                     centroids = {}
                     
-                    # Extract activity columns (exclude 'Fitness' from the component math)
                     activity_columns = [col for col in X_train.columns if col != "Fitness"]
                     
-                    # Deduce the available components from the column names
                     available_components = set([act.split("_")[-1] for act in activity_columns])
                     
                     for c in unique_clusters:
-                        if c == -1: # Ignore HDBSCAN 'noise' cluster
+                        if c == -1:
                             continue
                         
                         cluster_traces = X_train[train_labels == c]
                         centroids[c] = cluster_traces.mean().values
                         
-                        # Initialize scores for this cluster
                         comp_scores = {comp: 0 for comp in available_components}
                         
-                        # Sum the misalignments dynamically based on the suffix
                         for act in activity_columns:
                             comp = act.split("_")[-1]
                             comp_scores[comp] += cluster_traces[act].sum()
                         
-                        # Label the cluster with the component that has the highest sum
                         cluster_to_component[c] = max(comp_scores, key=comp_scores.get)
 
-                    # ==========================================
-                    # STEP 2: Assign Test Traces to Clusters
-                    # ==========================================
                     test_cluster_assignments = []
                     
                     if hasattr(model, "predict") and cluster_algo not in ["Spectral", "WARD"]:
@@ -212,12 +184,8 @@ def classify_test_traces(diagnoses, clusters):
                         closest_indices = pairwise_distances_argmin(X_test, centroid_matrix)
                         test_cluster_assignments = [centroid_ids[idx] for idx in closest_indices]
 
-                    # Translate the predicted cluster IDs into Component names
                     y_pred = [cluster_to_component.get(c, "Unknown") for c in test_cluster_assignments]
 
-                    # ==========================================
-                    # STEP 3: Calculate Evaluation Metrics
-                    # ==========================================
                     acc = balanced_accuracy_score(y_test_true, y_pred)
                     v_m = v_measure_score(y_test_true, test_cluster_assignments)
 
@@ -239,9 +207,9 @@ def save_metrics(accuracy_results, v_measure_results, output_filepath="Output/me
                     
                     rows.append({
                         "Window": int(window),
-                        "PD_Algorithm": pd_algo.upper(),  # E.g., 'im' becomes 'IM'
+                        "PD_Algorithm": pd_algo.upper(),
                         "Clustering_Algorithm": cluster_algo,
-                        "N_Clusters": str(n_clusters).capitalize(), # Handles both numbers and "Auto"
+                        "N_Clusters": str(n_clusters).capitalize(),
                         "Accuracy": round(acc, 2) if isinstance(acc, float) else acc,
                         "V_Measure": round(v_m, 2) if isinstance(v_m, float) else v_m
                     })
@@ -263,10 +231,6 @@ def save_metrics(accuracy_results, v_measure_results, output_filepath="Output/me
     return df	
 	
 def calculate_test_explanations(diagnoses):
-    """
-    Calculates the global explanation scores (S_comp) for each batch of injected faults 
-    in the test dataset, mirroring the bar plot methodology.
-    """
     explanations_results = []
 
     for pd_algo, windows in diagnoses.items():
@@ -278,35 +242,28 @@ def calculate_test_explanations(diagnoses):
             if df_test.empty:
                 continue
 
-            # Extract activity columns and deduce components
             activity_columns = [col for col in df_test.columns if col not in ["Fitness", "Component"]]
             available_components = sorted(list(set([act.split("_")[-1] for act in activity_columns])))
 
-            # Group the test traces by their true injected fault
             grouped_test_data = df_test.groupby("Component")
 
             for injected_fault, group_df in grouped_test_data:
-                # Initialize the explanation scores for this batch
                 comp_scores = {comp: 0.0 for comp in available_components}
                 
-                # Sum the misalignments dynamically based on the suffix
                 for act in activity_columns:
                     comp = act.split("_")[-1]
                     comp_scores[comp] += group_df[act].sum()
 
-                # Calculate the "Average non-Conformances" to match the paper's y-axis
                 num_traces = len(group_df)
                 for comp in comp_scores:
                     comp_scores[comp] = comp_scores[comp] / num_traces
 
-                # Store the results
                 row = {
                     "PD_Algorithm": pd_algo.upper(),
                     "Window": int(window),
                     "Injected_Fault": injected_fault
                 }
                 
-                # Add the S_scores (e.g., S_ARBC, S_EVC) to the row
                 for comp, score in comp_scores.items():
                     row[f"S_{comp}"] = score
                 
@@ -315,14 +272,10 @@ def calculate_test_explanations(diagnoses):
     return pd.DataFrame(explanations_results)
 
 def save_test_explanations(df_explanations, output_filepath="Output/explanations_summary.csv"):
-    """
-    Saves the global explanation scores to a CSV.
-    """
     if df_explanations.empty:
         print("[WARNING] No explanations to save.")
         return df_explanations
         
-    # Sort for clean presentation
     df_explanations = df_explanations.sort_values(by=["Window", "PD_Algorithm", "Injected_Fault"])
     
     os.makedirs(os.path.dirname(output_filepath), exist_ok=True)

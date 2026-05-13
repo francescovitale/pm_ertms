@@ -21,10 +21,6 @@ import time
 
 
 def load_event_logs(base_input_dir="Input"):
-	"""
-	Loads event logs into a nested dictionary with the exact structure:
-	event_logs[type][window_length][component] = imported_log
-	"""
 	event_logs = {
 		"Training": {},
 		"Test": {}
@@ -44,15 +40,12 @@ def load_event_logs(base_input_dir="Input"):
 				
 			for file_name in os.listdir(comp_dir):
 				if file_name.endswith(".xes"):
-					# Extracts '10' from 'EL_10.xes'
 					window_length = file_name.split(".xes")[0].split("_")[-1] 
 					file_path = os.path.join(comp_dir, file_name)
 					
-					# 1. Ensure the window_length key exists under the type
 					if window_length not in event_logs[log_type]:
 						event_logs[log_type][window_length] = {}
 						
-					# 2. Assign the log to the component UNDER the window length
 					event_logs[log_type][window_length][component] = xes_importer.apply(file_path)
 
 	return event_logs
@@ -80,7 +73,6 @@ def compute_cc_diagnoses(event_logs, petri_nets):
     cc_diagnoses = {"Training": {}, "Test": {}}
     cc_timings = {"Training": {}, "Test": {}}
     
-    # 1. Gather all unique activities across all Petri nets and all event logs
     activities_set = set()
     
     for algo, p_net_dict in petri_nets.items():
@@ -94,9 +86,7 @@ def compute_cc_diagnoses(event_logs, petri_nets):
                 
     activities = sorted(list(activities_set))
 
-    # 2. Compute diagnoses separating Training and Test at the root
     for log_type in ["Training", "Test"]:
-        # Safety check in case the dictionary doesn't have the log_type
         if log_type not in event_logs:
             continue
             
@@ -112,7 +102,6 @@ def compute_cc_diagnoses(event_logs, petri_nets):
                     trace_wise_diagnoses_data = []
                     timings = []
                     
-                    # Fetch the specific log for this iteration
                     log = event_logs[log_type][window][component]
                     
                     for trace in log:
@@ -122,7 +111,6 @@ def compute_cc_diagnoses(event_logs, petri_nets):
                         trace_diagnoses = generate_ab_diagnoses(single_trace_log, p_net_dict, activities)
                         timings.append(time.time() - start_time)
                         
-                        # We no longer need the "Type" column since they are separated by dictionary keys
                         trace_row = list(trace_diagnoses.values()) + [component]
                         trace_wise_diagnoses_data.append(trace_row)
                     
@@ -235,24 +223,19 @@ def compute_misaligned_activities(event_log, aligned_traces):
 	return misaligned_activities	
 	
 def write_diagnoses(cc_diagnoses, output_base_dir="Output"):
-    # Iterate through the cc_diagnoses dictionary (Type -> Algo -> Window -> Component)
     for log_type, algos in cc_diagnoses.items():
         for algo, windows in algos.items():
             for window, components in windows.items():
                 
-                # Build the target directory path: Algo / Window / Type
                 target_dir = os.path.join(output_base_dir, algo, str(window), log_type)
                 
-                # Create the directory structure if it doesn't exist
                 os.makedirs(target_dir, exist_ok=True)
                 
-                # Consolidate all component DataFrames for this specific window/algo/type
                 dataframes_to_concat = []
                 for component, df in components.items():
                     if not df.empty:
                         dataframes_to_concat.append(df)
                 
-                # If we have data, concatenate and save as a single CSV
                 if dataframes_to_concat:
                     consolidated_df = pd.concat(dataframes_to_concat, ignore_index=True)
                     
