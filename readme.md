@@ -37,14 +37,20 @@ The batch file behavior_characterization.bat runs the logic by chaining the exec
 
 ```.\behavior_characterization.bat```
 
+Please note that the folder already contains under Results the outputs of a former execution of the script.
+
 ### Behavior diagnosis
 
-This folder contains the online conformance-checking implementation to extract the control-flow diagnoses of deviating traces. The batch file behavior_diagnosis.bat runs the logic. Run the following command:
+This folder contains the online conformance-checking implementation to extract the control-flow diagnoses of deviating traces. The folder contains a Dataset subfolder that contains the data generated from the execution of the previous step. Note that the repository already contains the outputs of a former execution of the behavior characterization script under the Dataset folder. The batch file behavior_diagnosis.bat runs the logic and saves the results under the Results folder. Run the following command:
 
 ```.\behavior_diagnosis.bat```
 
+Please note that the folder already contains under Results the outputs of a former execution of the script.
+
 ### Anomaly detection and explanation
 
-This folder contains the clustering and anomaly explanation logic used to separate the control-flow diagnoses based on the deviating components and explain the specific deviations by providing the number of component-wise misalignments. The batch file anomaly_detection_explanation.bat runs the logic. Run the following command:
+This folder contains the clustering and anomaly explanation logic used to separate the control-flow diagnoses based on the deviating components and explain the specific deviations by providing the number of component-wise misalignments. Note that the repository already contains the outputs of a former execution of the behavior diagnosis script under the Diagnoses folder. The batch file anomaly_detection_explanation.bat runs the logic and saves the results under the Results folder. Run the following command:
 
 ```.\anomaly_detection_explanation.bat```
+
+Please note that the folder already contains under Results hte outputs of a former execution of the script
