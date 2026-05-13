@@ -1,13 +1,12 @@
 # A Process Mining Methodology for Run-Time Monitoring of ERTMS/ETCS Control Flow
 
-## Packages
-This project has been executed in a Python environment to implement the process mining and anomaly detection pipelines. A few libraries have been used within Python modules. Among these, the main ones are:
+## Packages and run-time environment
+This project has been executed on a Windows 11 machine with Python 3.11.5 and Pytest 8.4.2. A few libraries have been used within Python modules. Among these, the main ones are:
 
 - pm4py 2.7.22.2
 - scikit-learn 1.7.2
 - numpy 1.26.4
 - pandas 2.2.3
-- pytest 8.4.2
 
 Please note that this list is not comprehensive and there may be additional dependencies required to run the project.
 
